@@ -46,7 +46,7 @@ def uploadit():
      #os.system('python3 {0}.py'.format(vidnameoutar[k]))
      file = m.upload('{0}'.format(vidnameoutar[k]))
      os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
-     os.system('rm {0} && rm {1} && rm {2}'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
+     os.system('rm -f {0} && rm -f {1} && rm -f {2}'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
      k+=1 
     
     
