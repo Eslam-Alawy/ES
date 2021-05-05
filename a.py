@@ -42,10 +42,10 @@ def doitnow():
 def uploadit():
     k=0
     while k < howmany:
-     os.system('echo "Uploading {0} ..."'.format(vidnameoutar[k]))
+     os.system('echo -e "\e[5m\e[95mUploading {0} ..."'.format(vidnameoutar[k]))
      #os.system('python3 {0}.py'.format(vidnameoutar[k]))
      file = m.upload('{0}'.format(vidnameoutar[k]))
-     os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
+     os.system('echo -e "\e[92m{0} Uploaded Successfully."'.format(vidnameoutar[k]))
      os.system('rm -f {0} && rm -f {1} && rm -f {2}'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
      k+=1 
     
