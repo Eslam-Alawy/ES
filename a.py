@@ -11,43 +11,43 @@ urlar = []
 vidnamear = []
 vidsub = []
 vidnameoutar = []
-
-f = open("links.txt","r")
-file = f.read()
-f.close()
-line1 = file.split("\n")
-args = []
-for x in line1:
-    args.append(x)
+def men():
+    f = open("links.txt","r")
+    file = f.read()
+    f.close()
+    line1 = file.split("\n")
+    args = []
+    for x in line1:
+        args.append(x)
     
-length = len(args)
-con_ter = 0
-index_of_it = 0
-f_s = input("Links Starts from :\n")
-while con_ter < length:
-    if args[con_ter] == f_s:
-        in_co = con_ter +1
-        f_s_int = int(f_s)+ 1
-        f_s_nxt = str(f_s_int)
-        while in_co < length:
-            if args[in_co] == f_s_nxt:
-                break
-            else:
-                urlar.append(args[in_co])
-            in_co+=1       
-    con_ter+=1
+    length = len(args)
+    con_ter = 0
+    index_of_it = 0
+    f_s = input("Links Starts from :\n")
+    while con_ter < length:
+        if args[con_ter] == f_s:
+            in_co = con_ter +1
+            f_s_int = int(f_s)+ 1
+            f_s_nxt = str(f_s_int)
+            while in_co < length:
+                if args[in_co] == f_s_nxt:
+                    break
+                else:
+                    urlar.append(args[in_co])
+                in_co+=1
+        con_ter+=1
 
-#kam = input("How Many Videos You Will Finish Today :\n")
-#howmany = int(kam)
-howmany = 2
+kam = input("How Many Videos You Will Finish Today :\n")
+howmany = int(kam)
+#howmany = 2
 start_from = input("Your start from :\n")
 in_start = int(start_from)
 end_of = in_start + howmany -1
-tzwed = 0
 i = 0
+
 while i < howmany:
-    #url = input("Of VID {0}: Crunchyorll URL:\n".format(i+1))
-    #urlar.append(url)
+    url = input("Of VID {0}: Crunchyorll URL:\n".format(i+1))
+    urlar.append(url)
     
     if in_start <= end_of:
         vidnamear.append(str(in_start)+".mp4")
