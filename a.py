@@ -12,26 +12,6 @@ vidnamear = []
 vidsub = []
 vidnameoutar = []
 
-kam = input("How Many Videos You Will Finish Today :\n")
-howmany = int(kam)
-start_from = input("Your start from :\n")
-in_start = int(start_from)
-end_of = in_start + howmany -1
-tzwed = 0
-i = 0
-while i < howmany:
-    #url = input("Of VID {0}: Crunchyorll URL:\n".format(i+1))
-    #urlar.append(url)
-    
-    if in_start <= end_of:
-        vidnamear.append(str(in_start)+".mp4")
-        vidsub.append(str(in_start)+".ass")
-        vidnameoutar.append("[DisCinema.com]_AOT_EP"+str(in_start)+".mp4")
-    
-    clear()
-    in_start+=1
-    i+=1
-    
 f = open("links.txt","r")
 file = f.read()
 f.close()
@@ -56,6 +36,29 @@ while con_ter < length:
                 urlar.append(args[in_co])
             in_co+=1       
     con_ter+=1
+
+#kam = input("How Many Videos You Will Finish Today :\n")
+#howmany = int(kam)
+howmany = 2
+start_from = input("Your start from :\n")
+in_start = int(start_from)
+end_of = in_start + howmany -1
+tzwed = 0
+i = 0
+while i < howmany:
+    #url = input("Of VID {0}: Crunchyorll URL:\n".format(i+1))
+    #urlar.append(url)
+    
+    if in_start <= end_of:
+        vidnamear.append(str(in_start)+".mp4")
+        vidsub.append(str(in_start)+".ass")
+        vidnameoutar.append("[DisCinema.com]_AOT_EP"+str(in_start)+".mp4")
+    
+    clear()
+    in_start+=1
+    i+=1
+    
+
     
 
 def doitnow():
