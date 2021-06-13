@@ -40,19 +40,25 @@ def men():
 kam = input("How Many Videos You Will Finish Today :\n")
 howmany = int(kam)
 #howmany = 2
-start_from = input("Your start from :\n")
-in_start = int(start_from)
-end_of = in_start + howmany -1
+#start_from = input("Your start from :\n")
+#in_start = int(start_from)
+#end_of = in_start + howmany -1
 i = 0
 
 while i < howmany:
     url = input("Of VID {0}: Crunchyorll URL:\n".format(i+1))
     urlar.append(url)
+    va = input("Of VID {0}: Video name:\n".format(i+1))
+    vidnamear.append(va+".mp4")
+    vids = input("Of VID {0}: Video Subtitle:\n".format(i+1))
+    vidsub.append(vids+".ass")
+    bd = input("Of VID {0}: Video Number of EP :\n".format(i+1))
+    vidnameoutar.append("[DisCinema.com]_AOT_EP"+bd+".mp4")
     
-    if in_start <= end_of:
-        vidnamear.append(str(in_start)+".mp4")
-        vidsub.append(str(in_start)+".ass")
-        vidnameoutar.append("[DisCinema.com]_AOT_EP"+str(in_start)+".mp4")
+    #if in_start <= end_of:
+     #   vidnamear.append(str(in_start)+".mp4")
+      #  vidsub.append(str(in_start)+".ass")
+       # vidnameoutar.append("[DisCinema.com]_AOT_EP"+str(in_start)+".mp4")
     
     clear()
     in_start+=1
