@@ -4,7 +4,7 @@ import sys
 sys.path.append(os.path.abspath("/usr/local/lib/python2.7/dist-packages"))
 from mega import Mega
 mega = Mega()
-m = mega.login('discinema_2@getnada.com','Lord7418529630')
+m = mega.login('discinema_3@getnada.com','Lord7418529630')
 def clear():
     os.system('reset')
 urlar = []
