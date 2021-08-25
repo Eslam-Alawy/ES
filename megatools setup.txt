@@ -1,0 +1,14 @@
+sudo apt-get install -y megatools
+
+
+megaput [DisCinema.com]_FMAB_EP4.mp4 -u discinema_4@getnada.com -p Lord7418529630 --ignore-config-file
+
+megaput file.dd --config a.megarc
+
+[Login]
+Username = discinema_4@getnada.com
+Password = Lord7418529630
+
+
+
+megareg --register --email discinema_4@getnada.com --name "William man" --password "Lord7418529630"
