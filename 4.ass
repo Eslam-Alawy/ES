@@ -1,0 +1,384 @@
+﻿[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: FMA2 Names,Times New Roman,23,&H00E0E0E0,&H000000FF,&H23000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+Style: FMA2 Radio etc. ARA,Times New Roman,23,&H14F7F7F7,&H000000FF,&H146A8684,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,8,10,10,10,0
+Style: FMA2 Top Note ARA,Times New Roman,24,&H324E4E4E,&H000000FF,&H32C5C5C5,&H00292929,-1,0,0,0,100,100,0,0,1,1.2,0,8,10,10,10,1
+Style: Screen W AR,Times New Roman,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,2,10,10,10,1
+Style: FMA2 Default ARA,Times New Roman,20,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0040,0040,0018,0
+Style: FMA2 O-E Translate ARA,Times New Roman,22,&H00DDE708,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,0040,0040,0018,0
+Style: FMA2 Ed Anger lol ARA,Times New Roman,22,&HC8E9E9E9,&H003A3129,&H1EFCFCFC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: FMA2 Anger ARA,Times New Roman,22,&H00FFFFFF,&H000000FF,&H00000056,&H00000000,-1,0,0,0,100,100,0,0,1,1.3,0,2,10,10,10,0
+Style: FMA2 Upline ARA,Times New Roman,22,&H00FFFFFF,&H000000FF,&H00003044,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,0
+Style: FMA2 Self ARA,Times New Roman,22,&H1EFFFFFF,&H000000FF,&H1E5D2200,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,0
+Style: FMA2 Before ARA,Times New Roman,22,&H1EF4F4F4,&H000000FF,&H1E2B2B2B,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,0
+Style: FMA2 Intro ARA,Times New Roman,25,&H00EBEBEB,&H000000FF,&H005E5E5E,&H00000000,-1,0,0,0,100,100,0,0,1,1.2,0,2,10,10,10,0
+Style: FMA2 White ARA,Times New Roman,22,&H64B6B6B6,&H003A3129,&H1EF8F8F8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,10,10,10,0
+Style: SignA,Times New Roman,22,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:04:10.00,0:04:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:08:10.00,0:08:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:10:10.00,0:10:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:12:10.00,0:12:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:14:10.00,0:14:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:16:10.00,0:16:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:19:10.00,0:19:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:21:10.00,0:21:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:23:10.00,0:23:15.25,SignA,Narr,0000,0000,0000,,{\pos(355,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}DisCinema.com
+Dialogue: 0,0:01:57.74,0:02:07.74,SignA,E,0000,0000,0000,,{\move(190,400,190,80)}{\fad(1000,1000)}{\fs25\blur2\pos(310,153)}نتمني لكم مشاهدة ممتعة \N DisCinema.com موقع 
+Dialogue: 0,0:22:10.00,0:22:20.00,SignA,,0000,0000,0000,,{\move(190,400,190,80)}{\fad(1000,1000)}{\blur2\pos(310,153)}زورو موقعنا لمذيد من الحلقات و الانمي و المسلسلات الاخري \N ♥DisCinema.com موقع♥
+
+Dialogue: 0,0:00:01.32,0:00:06.12,FMA2 Intro ARA,Intro,0,0,0,,{\be1}الخيمياء هي علم فهم المادة، تكسيرها، وإعادة تركيبها ثانيةً
+Dialogue: 0,0:00:06.53,0:00:12.11,FMA2 Intro ARA,Intro,0,0,0,,{\be1}لكنها ليست مهارةً خارقة، فلا يمكن لشخص أن يخلق شيئاً من العدم
+Dialogue: 0,0:00:12.78,0:00:17.84,FMA2 Intro ARA,Intro,0,0,0,,{\be1}للحصول على شيء، من الضروري تقديم ما يكافئ المطلوب قيمةً
+Dialogue: 0,0:00:18.17,0:00:22.54,FMA2 Intro ARA,Intro,0,0,0,,{\be1}وهذه تعتبر قاعدة من أساسيات الخيمياء وتعرف بالمقايضة المتكافئة
+Dialogue: 0,0:00:23.21,0:00:26.88,FMA2 Intro ARA,Intro,0,0,0,,{\be1}وهناك حد محرم على الخيميائيين، وهو التحويل البشري
+Dialogue: 0,0:00:27.25,0:00:29.72,FMA2 Intro ARA,Intro,0,0,0,,{\be1}وهو فعل لا ينبغي لبشر أن يقوم به
+Dialogue: 0,0:00:30.38,0:00:34.05,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أليست الحياة أطول ―
+Dialogue: 0,0:00:34.05,0:00:36.05,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― من أن تمحو هذه الذكريات ؟ ―
+Dialogue: 0,0:00:37.43,0:00:42.68,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― لأنني ما زلت أريد القيام بما فوته ―
+Dialogue: 0,0:00:51.73,0:00:58.99,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― مع أنني كنت أركض خلف حلمي المستمر ―
+Dialogue: 0,0:00:59.45,0:01:05.29,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― صادفت الكثير من الناس خلال سيري على هذا الطريق الضيق الملتف ―
+Dialogue: 0,0:01:05.29,0:01:08.46,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― ليس الأمر أنني أريد العودة إلى تلك الأيام ―
+Dialogue: 0,0:01:08.46,0:01:11.96,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― إنما أنا أبحث عن السماء التي فقدتها ―
+Dialogue: 0,0:01:11.96,0:01:13.63,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أرجوك افهمني ―
+Dialogue: 0,0:01:13.63,0:01:18.84,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― لا تدع الحزن يظهر على وجهك وكأنك ستصبح تضحية ―
+Dialogue: 0,0:01:18.84,0:01:20.56,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― فالدموع ليست نهاية ذنب ―
+Dialogue: 0,0:01:20.56,0:01:22.22,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أنا ساحمل هذا الالم معي إلى الأبد ―
+Dialogue: 0,0:01:22.22,0:01:23.89,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― من أنتظر في نهاية متاهة المشاعر هذه ―
+Dialogue: 0,0:01:23.89,0:01:25.56,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― تلك التي لا أرى نهايتها حتى ؟ ―
+Dialogue: 0,0:01:25.56,0:01:27.35,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أريد أن أعبر عن نفسي بشكل أكثر إنصافاً ―
+Dialogue: 0,0:01:27.35,0:01:29.15,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― تماماً كما سطرتها في دفتري الأبيض ―
+Dialogue: 0,0:01:29.15,0:01:30.77,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― ما الذي أهرب منه ؟ ―
+Dialogue: 0,0:01:30.77,0:01:32.40,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― هل هو ما يدعونه الواقع ؟ ―
+Dialogue: 0,0:01:32.40,0:01:35.74,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أريد أن أصرخ عالياً بأنني ―
+Dialogue: 0,0:01:35.74,0:01:39.16,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أعيش لأجعل حلمك حقيقة" .. هل تستطيع سماعي ؟" ―
+Dialogue: 0,0:01:39.16,0:01:43.29,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― لا يمكنني أخذ الأمر ببساطة ―
+Dialogue: 0,0:01:44.24,0:01:46.08,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― ...ليس لدي حتى مكان أعود إليه ―
+Dialogue: 0,0:01:46.08,0:01:49.38,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أنا دائماً شاكر للطفك ―
+Dialogue: 0,0:01:49.38,0:01:51.79,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― (ولهذا أريد أن أصبح أقوى (أنا في الطريق ―
+Dialogue: 0,0:01:52.75,0:01:54.71,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أشعر بالحنين إلى الماضي ―
+Dialogue: 0,0:01:54.71,0:01:58.01,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أنا أتقبل هذا الألم ―
+
+Dialogue: 0,0:02:01.67,0:02:08.57,FMA2 Upline ARA,Narator,0,0,0,,{\be1}قسيس ديانة "ليتو" في (ليور) استخدم الخيمياء وحجر الفلاسفة ليخدع الناس
+Dialogue: 0,0:02:09.55,0:02:13.63,FMA2 Upline ARA,Narator,0,0,0,,{\be1}لكن [إد] و[آل] اخترقا المعبد وأوقفا خطة القسيس الشريرة
+Dialogue: 0,0:02:14.50,0:02:17.69,FMA2 Upline ARA,Narator,0,0,0,,{\be1}لكن، حجر الفلاسفة كان مزيفاً
+Dialogue: 0,0:02:18.45,0:02:19.44,FMA2 Upline ARA,Narator,0,0,0,,{\be1}"قفي وتحركي"
+Dialogue: 0,0:02:19.60,0:02:20.68,FMA2 Upline ARA,Narator,0,0,0,,{\be1}"تقدمي للأمام"
+Dialogue: 0,0:02:21.44,0:02:24.87,FMA2 Upline ARA,Narator,0,0,0,,{\be1}كانت هذه كلمات [إد] التي اخترقت صدر [روزي] فاقدةِ الأمل
+Dialogue: 0,0:02:25.85,0:02:29.63,FMA2 Upline ARA,Narator,0,0,0,,{\be1}لكنه عنى بهذه الكلمات نفسيهما أيضاً
+Dialogue: 0,0:02:41.85,0:02:45.55,FMA2 Default ARA,Scar,0,0,0,,{\be1}أنت خيميائي حديد الدم [باسكيه غران]، صحيح ؟
+Dialogue: 0,0:02:45.93,0:02:47.21,FMA2 Default ARA,Grand,0,0,0,,{\be1}من أنت ؟
+Dialogue: 0,0:02:48.85,0:02:52.40,FMA2 Default ARA,Scar,0,0,0,,{\be1}.. الخيميائيون الذين يحيدون عن طريق الآلة
+Dialogue: 0,0:02:52.40,0:02:53.59,FMA2 Default ARA,Scar,0,0,0,,{\be1}سيسقطون
+Dialogue: 0,0:02:54.95,0:02:59.58,FMA2 Default ARA,Grand,0,0,0,,{\be1}إذاً أنت هو ذاك الشخص الذي شاع أنه لا يلاحق إلا خيميائيي الدولة
+Dialogue: 0,0:03:00.00,0:03:00.87,FMA2 Default ARA,Grand,0,0,0,,{\be1}! ولكنك
+Dialogue: 0,0:03:02.29,0:03:05.02,FMA2 Default ARA,Grand,0,0,0,,{\be1}! اخترت .. الخصم الخاطئ
+Dialogue: 0,0:03:16.76,0:03:17.46,FMA2 Default ARA,Grand,0,0,0,,{\be1}! سريع
+Dialogue: 0,0:03:17.67,0:03:18.37,FMA2 Default ARA,Grand,0,0,0,,{\be1}! .. ولكن
+Dialogue: 0,0:03:21.76,0:03:22.87,FMA2 Default ARA,Grand,0,0,0,,{\be1}! .. إذن
+Dialogue: 0,0:03:28.25,0:03:29.68,FMA2 Default ARA,Grand,0,0,0,,{\be1}ياللسخف
+Dialogue: 0,0:03:38.66,0:03:40.85,FMA2 Default ARA,Grand,0,0,0,,{\be1}!ما .. ماذا ؟
+Dialogue: 0,0:03:42.00,0:03:42.73,FMA2 Default ARA,Scar,0,0,0,,{\be1}اسقط
+Dialogue: 0,0:03:55.25,0:03:57.08,FMA2 Default ARA,Hughes,0,0,0,,{\be1}.. خيميائي دولة آخر
+Dialogue: 0,0:03:57.74,0:03:59.70,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}لقد أصبح الأمر كبيراً
+Dialogue: 0,0:04:00.97,0:04:05.83,FMA2 Default ARA,Hughes,0,0,0,,{\be1}كن حذراً أيها الرائد، فقد تكون الهدف التالي
+Dialogue: 0,0:04:06.29,0:04:06.89,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}نعم
+Dialogue: 0,0:04:13.97,0:04:14.91,FMA2 Default ARA,Hughes,0,0,0,,{\be1}سعادة القائد
+Dialogue: 0,0:04:15.32,0:04:16.05,FMA2 Default ARA,Hughes,0,0,0,,{\be1}ما الذي أتى بك إلى هنا ؟
+Dialogue: 0,0:04:18.43,0:04:20.15,FMA2 Default ARA,Fuhrer,0,0,0,,{\be1}سمعت الأخبار
+Dialogue: 0,0:04:21.40,0:04:24.42,FMA2 Default ARA,Fuhrer,0,0,0,,{\be1}أيها المقدم [هيوز] .. هل أنت المسؤول عن هذه القضية ؟
+Dialogue: 0,0:04:24.76,0:04:25.08,FMA2 Default ARA,Hughes,0,0,0,,{\be1}! نعم سيدي
+Dialogue: 0,0:04:25.90,0:04:28.65,FMA2 Default ARA,Fuhrer,0,0,0,,{\be1}إذا كان هناك من تود أن تطلبه لمساعدتك في هذه القضية، فلك ذلك
+Dialogue: 0,0:04:29.22,0:04:32.65,FMA2 Default ARA,Fuhrer,0,0,0,,{\be1}فالخونة يجب أن نتعامل معهم بقبضة من حديد
+Dialogue: 0,0:04:34.08,0:04:34.86,FMA2 Default ARA,Hughes,0,0,0,,{\be1}! حاضر
+Dialogue: 0,0:04:38.34,0:04:39.66,FMA2 Default ARA,Hawkeye,0,0,0,,{\be1}[الملازم الأول [بريدا
+Dialogue: 0,0:04:39.87,0:04:40.61,FMA2 Default ARA,Breda,0,0,0,,{\be1}نعم
+Dialogue: 0,0:04:41.29,0:04:45.00,FMA2 Default ARA,Breda,0,0,0,,{\be1}يا إلهي، لقد تراكمت الأعمال على العقيد مجدداً
+Dialogue: 0,0:04:45.95,0:04:48.16,FMA2 Default ARA,Breda,0,0,0,,{\be1}هافوك] خذ عني نصف هذا العمل]
+Dialogue: 0,0:04:48.78,0:04:50.81,FMA2 Default ARA,Havoc,0,0,0,,{\be1}أنا مشغول جداً هنا
+Dialogue: 0,0:04:51.32,0:04:53.15,FMA2 Default ARA,Hughes,0,0,0,,{\be1}ممم .. من يكون هذا ؟
+Dialogue: 0,0:04:53.53,0:04:54.71,FMA2 Default ARA,,0,0,0,,{\be1}[الملازم الأول [يوكي
+Dialogue: 0,0:04:55.42,0:04:59.82,FMA2 Default ARA,,0,0,0,,{\be1}إنه شخص شرير استخدم صلاحياته في مناجم (يوث ويل) لتحقيق مكاسب شخصية
+Dialogue: 0,0:05:00.17,0:05:02.37,FMA2 Default ARA,,0,0,0,,{\be1}لكن الأخوين [إلريك] كشفا مخططاته
+Dialogue: 0,0:05:02.65,0:05:04.11,FMA2 Default ARA,,0,0,0,,{\be1}وهو الآن هارب
+Dialogue: 0,0:05:04.83,0:05:06.89,FMA2 Default ARA,Hawkeye,0,0,0,,{\be1}ملازم [يوري] كيف حال المذياع ؟
+Dialogue: 0,0:05:07.91,0:05:09.66,FMA2 Default ARA,Yuri,0,0,0,,{\be1}المستقبل لا يعمل
+Dialogue: 0,0:05:10.16,0:05:11.42,FMA2 Default ARA,Yuri,0,0,0,,{\be1}سيكون علينا استبدال بعض القطع
+Dialogue: 0,0:05:14.50,0:05:17.24,FMA2 Default ARA,Yuri,0,0,0,,{\be1}! [إدوارد] و[ألفونسو]
+Dialogue: 0,0:05:17.47,0:05:19.50,FMA2 Default ARA,Hawkeye,0,0,0,,{\be1}أهلاً بعودتكما
+Dialogue: 0,0:05:19.65,0:05:20.96,FMA2 Default ARA,Hawkeye,0,0,0,,{\be1}لقد كان العقيد في انتظاركما
+Dialogue: 0,0:05:23.17,0:05:26.07,FMA2 Default ARA,Mustang,0,0,0,,{\be1}تم الانتهاء من حادثة (ليور) بفضلكما
+Dialogue: 0,0:05:26.44,0:05:27.74,FMA2 Default ARA,Mustang,0,0,0,,{\be1}أقدم لكما عميق امتناني
+Dialogue: 0,0:05:27.81,0:05:30.30,FMA2 Default ARA,Ed,0,0,0,,{\be1}نحن لم نفعل ذلك من أجلك أو ما شابه
+Dialogue: 0,0:05:30.95,0:05:33.96,FMA2 Default ARA,Mustang,0,0,0,,{\be1}إذاً ؟ لا أخبار جديدة عن حجر الفلاسفة هذه المرة أيضاً ؟
+Dialogue: 0,0:05:38.36,0:05:39.95,FMA2 Default ARA,Ed,0,0,0,,{\be1}لقد كان الحجر مزيفاً
+Dialogue: 0,0:05:40.55,0:05:43.38,FMA2 Default ARA,Ed,0,0,0,,{\be1}لكن قوته كانت هائلة
+Dialogue: 0,0:05:43.94,0:05:46.19,FMA2 Top Note ARA,,0,0,0,,{\be1}الكيميرا مخلوق مصنع خيميائياً
+Dialogue: 0,0:05:43.94,0:05:46.19,FMA2 Default ARA,Ed,0,0,0,,{\be1}كما أنه قام بتحويل "كيميرا" كبيرة
+Dialogue: 0,0:05:46.67,0:05:49.30,FMA2 Default ARA,Al,0,0,0,,{\be1}كيف يمكن استخدام الحجر لإيجاد هكذا أشياء ؟
+Dialogue: 0,0:05:49.67,0:05:53.49,FMA2 Default ARA,Al,0,0,0,,{\be1}لست ذا معرفة بالتحويلات الحيوية لذا لا علم لدي
+Dialogue: 0,0:05:53.73,0:05:55.88,FMA2 Default ARA,Ed,0,0,0,,{\be1}ولكني مهتم بهذا
+Dialogue: 0,0:05:56.38,0:06:00.32,FMA2 Default ARA,Ed,0,0,0,,{\be1}إذا بحثنا الموضوع بتفصيل، فقد نستفيد منه في استعادة أجسادنا
+Dialogue: 0,0:06:00.63,0:06:00.96,FMA2 Default ARA,Al,0,0,0,,{\be1}نعم
+Dialogue: 0,0:06:01.82,0:06:04.08,FMA2 Default ARA,Mustang,0,0,0,,{\be1}لمَ لا تطلبان المساعدة من خبير ؟
+Dialogue: 0,0:06:04.37,0:06:04.79,FMA2 Default ARA,Ed,0,0,0,,{\be1}ماذا ؟
+Dialogue: 0,0:06:05.78,0:06:08.84,FMA2 Default ARA,Mustang,0,0,0,,{\be1}[خيميائي ربط الحياة [شو تاكر
+Dialogue: 0,0:06:09.47,0:06:12.25,FMA2 Default ARA,Mustang,0,0,0,,{\be1}إنه باحث في تحويل "الكيميرا"، سأعرفكما عليه
+Dialogue: 0,0:06:12.71,0:06:14.09,FMA2 Default ARA,Al,0,0,0,,{\be1}أتفعل هذا لأجلنا ؟
+Dialogue: 0,0:06:14.74,0:06:16.90,FMA2 Anger ARA,Ed,0,0,0,,{\be1}إنه فخ ! لا بد أنك تضمر شيئاً خلف هذا التصرف
+Dialogue: 0,0:06:17.26,0:06:18.75,FMA2 Default ARA,Mustang,0,0,0,,{\be1}لا ترمقني بنظرات الشك هذه
+Dialogue: 0,0:06:19.21,0:06:21.09,FMA2 Default ARA,Mustang,0,0,0,,{\be1}(بهذا سنكون متساوين بعد ما حدث في (ليور
+Dialogue: 0,0:06:21.57,0:06:24.15,FMA2 Default ARA,Mustang,0,0,0,,{\be1}فكرة أن أدين لك بخدمة تزعجني بشدة
+Dialogue: 0,0:06:25.92,0:06:30.32,FMA2 Default ARA,Mustang,0,0,0,,{\be1}.. قبل سنتين استطاع [تاكر] أن يحول "كيميرا" تستطيع فهم كلام البشر
+Dialogue: 0,0:06:30.58,0:06:32.89,FMA2 Default ARA,Mustang,0,0,0,,{\be1}وبهذا استحق لقبه كخيميائي دولة
+Dialogue: 0,0:06:33.40,0:06:35.07,FMA2 Default ARA,Ed,0,0,0,,{\be1}تفهم كلام البشر ؟
+Dialogue: 0,0:06:35.85,0:06:37.68,FMA2 Default ARA,Ed,0,0,0,,{\be1}تلك "الكيميرا" أكانت تتكلم ؟
+Dialogue: 0,0:06:38.48,0:06:40.66,FMA2 Default ARA,Mustang,0,0,0,,{\be1}.. نعم، يبدو ذلك
+Dialogue: 0,0:06:41.46,0:06:42.66,FMA2 Default ARA,Mustang,0,0,0,,{\be1}عبارة واحدة
+Dialogue: 0,0:06:43.76,0:06:44.59,FMA2 Default ARA,Mustang,0,0,0,,{\be1}"أريد أن أموت"
+Dialogue: 0,0:06:47.05,0:06:49.63,FMA2 Default ARA,Mustang,0,0,0,,{\be1}ويبدو أنها لم تقبل أن تأكل شيئاً بعدها حتى ماتت
+Dialogue: 0,0:06:54.65,0:06:56.55,FMA2 Default ARA,Ed,0,0,0,,{\be1}! ياله من بيت كبير
+Dialogue: 0,0:07:01.22,0:07:02.72,FMA2 Default ARA,Al,0,0,0,,{\be1}! أ .. أخي
+Dialogue: 0,0:07:02.98,0:07:06.83,FMA2 Default ARA,Nina,0,0,0,,{\be1}! الكثير من الضيوف
+Dialogue: 0,0:07:07.05,0:07:10.64,FMA2 Default ARA,Tucker,0,0,0,,{\be1}نينا]، يجب أن تربطي الكلب]
+Dialogue: 0,0:07:13.77,0:07:15.37,FMA2 Default ARA,Tucker,0,0,0,,{\be1}أنا آسف جداً
+Dialogue: 0,0:07:15.70,0:07:19.24,FMA2 Default ARA,Tucker,0,0,0,,{\be1}منذ أن هجرتني زوجتي أصبح البيت على هذا الحال
+Dialogue: 0,0:07:26.30,0:07:29.31,FMA2 Default ARA,Tucker,0,0,0,,{\be1}[مرة أخرى، يسرني لقاءك يا [إدوارد
+Dialogue: 0,0:07:29.94,0:07:32.83,FMA2 Default ARA,Tucker,0,0,0,,{\be1}[أنا خيميائي ربط الحياة، [شو تاكر
+Dialogue: 0,0:07:33.41,0:07:36.14,FMA2 Default ARA,Mustang,0,0,0,,{\be1}أنه مهتم بالتحويلات البشرية
+Dialogue: 0,0:07:36.67,0:07:38.72,FMA2 Default ARA,Mustang,0,0,0,,{\be1}لذا فلديه رغبة للاطلاع على بحوثك
+Dialogue: 0,0:07:39.03,0:07:40.91,FMA2 Default ARA,Tucker,0,0,0,,{\be1}بالتأكيد، لا أمانع
+Dialogue: 0,0:07:42.60,0:07:43.22,FMA2 Default ARA,Tucker,0,0,0,,{\be1}.. لكن قبل هذا
+Dialogue: 0,0:07:45.10,0:07:50.18,FMA2 Default ARA,Tucker,0,0,0,,{\be1}إن أردت أن يظهر لك شخص ما في يديه، يجب أن تظهر له ما في يديك
+Dialogue: 0,0:07:51.02,0:07:53.18,FMA2 Default ARA,Tucker,0,0,0,,{\be1}هذا من أسس الخيمياء، صحيح ؟
+Dialogue: 0,0:07:53.83,0:07:56.52,FMA2 Default ARA,Tucker,0,0,0,,{\be1}لمَ أنت مهتم بالتحويلات الحيوية ؟
+Dialogue: 0,0:07:57.73,0:07:59.14,FMA2 Default ARA,Mustang,0,0,0,,{\be1}.. لا .. كل ما في الأمر أنه
+Dialogue: 0,0:07:59.59,0:08:00.33,FMA2 Default ARA,Ed,0,0,0,,{\be1}.. أيها العقيد
+Dialogue: 0,0:08:03.65,0:08:05.35,FMA2 Default ARA,Tucker,0,0,0,,{\be1}!عملية تحويل لأمك ؟
+Dialogue: 0,0:08:06.21,0:08:07.79,FMA2 Default ARA,Tucker,0,0,0,,{\be1}!فتى في الحادية عشرة ؟
+Dialogue: 0,0:08:09.37,0:08:13.41,FMA2 Default ARA,Tucker,0,0,0,,{\be1}فهمت، ولهذا أنت الخيميائي المعدني
+Dialogue: 0,0:08:15.03,0:08:16.88,FMA2 Default ARA,Tucker,0,0,0,,{\be1}لقد مررت بتجربة صعبة فعلاً، صحيح ؟
+Dialogue: 0,0:08:22.59,0:08:24.89,FMA2 Default ARA,Tucker,0,0,0,,{\be1}لا أدري إذا كان بإمكاني المساعدة أم لا
+Dialogue: 0,0:08:25.54,0:08:28.23,FMA2 Default ARA,Tucker,0,0,0,,{\be1}تعال لتلقي نظرة على مختبر أبحاثي
+Dialogue: 0,0:08:33.00,0:08:33.89,FMA2 Default ARA,Al,0,0,0,,{\be1}! مذهل
+Dialogue: 0,0:08:34.25,0:08:36.19,FMA2 Default ARA,Tucker,0,0,0,,{\be1}إنه أمر محرج
+Dialogue: 0,0:08:36.87,0:08:39.91,FMA2 Default ARA,Tucker,0,0,0,,{\be1}"الناس يدعونني بفخر "الكيميرا
+Dialogue: 0,0:08:40.33,0:08:43.82,FMA2 Default ARA,Tucker,0,0,0,,{\be1}لكن أبحاثي في واقع الأمر لا تتقدم بشكل جيد
+Dialogue: 0,0:08:46.68,0:08:48.91,FMA2 Default ARA,Ed,0,0,0,,{\be1}! مذهل ! عظيم
+Dialogue: 0,0:08:48.95,0:08:51.41,FMA2 Default ARA,Tucker,0,0,0,,{\be1}هذه هي المكتبة، استخدماها كما تحبان
+Dialogue: 0,0:08:51.90,0:08:54.14,FMA2 Default ARA,Ed,0,0,0,,{\be1}حسنٌ، سأبدأ من هذا الرف
+Dialogue: 0,0:08:54.58,0:08:56.31,FMA2 Default ARA,Al,0,0,0,,{\be1}جيد، وأنا سأبدأ من هناك
+Dialogue: 0,0:08:58.06,0:08:59.63,FMA2 Default ARA,Mustang,0,0,0,,{\be1}وأنا سأعود للعمل
+Dialogue: 0,0:09:00.07,0:09:02.14,FMA2 Default ARA,Mustang,0,0,0,,{\be1}سأرسل من يصطحبكما عند المساء
+Dialogue: 0,0:09:05.77,0:09:10.14,FMA2 Default ARA,Tucker,0,0,0,,{\be1}إنه شديد التركيز، حتى أنه لم يعد يسمع ما يجري حوله
+Dialogue: 0,0:09:12.30,0:09:14.98,FMA2 Default ARA,Tucker,0,0,0,,{\be1}يبدو أنهم موجودون حقاً، صحيح ؟ .. أعني العباقرة
+Dialogue: 0,0:09:40.90,0:09:42.84,FMA2 Default ARA,Al,0,0,0,,{\be1}! عالياً عالياً
+Dialogue: 0,0:09:44.99,0:09:47.06,FMA2 Anger ARA,Ed,0,0,0,,{\be1}ما الذي تفعله يا [آل] ؟
+Dialogue: 0,0:09:47.90,0:09:49.97,FMA2 Default ARA,Al,0,0,0,,{\be1}بدا أن [نينا] أرادت اللعب
+Dialogue: 0,0:09:50.30,0:09:53.06,FMA2 Anger ARA,Ed,0,0,0,,{\be1}أنت .. ! لماذا تظن أننا أتينا هنا ؟
+Dialogue: 0,0:09:58.55,0:10:00.93,FMA2 Default ARA,Nina,0,0,0,,{\be1}يقول [ألكساندر] أنه يريد اللعب أيضاً
+Dialogue: 0,0:10:03.28,0:10:04.36,FMA2 Anger ARA,Ed,0,0,0,,{\be1}ياللجرأة
+Dialogue: 0,0:10:05.12,0:10:08.66,FMA2 Anger ARA,Ed,0,0,0,,{\be1}يقال أن الأسود تبذل أقصى ما بوسعها حتى لو كانت الفريسة أرنباً
+Dialogue: 0,0:10:09.29,0:10:13.66,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! أنا [إدوارد إلريك] سأتعامل معك بكل قواي العقلية والبدنية
+Dialogue: 0,0:10:14.39,0:10:16.71,FMA2 Anger ARA,Ed,0,0,0,,{\be1}أيها الكلب اللعين
+Dialogue: 0,0:10:19.87,0:10:22.25,FMA2 Default ARA,Havoc,0,0,0,,{\be1}! يا سيد .. لقد حضرت لأقلك
+Dialogue: 0,0:10:25.34,0:10:26.56,FMA2 Default ARA,Havoc,0,0,0,,{\be1}ما الذي تفعله ؟
+Dialogue: 0,0:10:26.92,0:10:30.71,FMA2 Default ARA,Ed,0,0,0,,{\be1}يمكنك أن تقول أنها استراحة دراسة
+Dialogue: 0,0:10:32.03,0:10:33.58,FMA2 Default ARA,Tucker,0,0,0,,{\be1}هل وجدتم مواداً جيدة ؟
+Dialogue: 0,0:10:36.39,0:10:37.57,FMA2 Default ARA,Tucker,0,0,0,,{\be1}عودا غداً
+Dialogue: 0,0:10:38.27,0:10:39.77,FMA2 Default ARA,Nina,0,0,0,,{\be1}هل ستأتيان ثانيةً ؟
+Dialogue: 0,0:10:39.77,0:10:41.71,FMA2 Default ARA,Al,0,0,0,,{\be1}[سنلعب معاً في الغد يا [نينا
+Dialogue: 0,0:10:41.73,0:10:42.30,FMA2 Default ARA,Nina,0,0,0,,{\be1}نعم
+Dialogue: 0,0:10:44.44,0:10:47.33,FMA2 Default ARA,Havoc,0,0,0,,{\be1}صحيح، سيد [تاكر] هناك رسالة من العقيد
+Dialogue: 0,0:10:47.81,0:10:51.62,FMA2 Default ARA,Havoc,0,0,0,,{\be1}قال أن يوم التقييم قريب، لذا لا تنسَ
+Dialogue: 0,0:10:52.67,0:10:54.87,FMA2 Default ARA,Tucker,0,0,0,,{\be1}نعم .. أعرف
+Dialogue: 0,0:10:55.46,0:10:56.15,FMA2 Default ARA,Havoc,0,0,0,,{\be1}حسنٌ
+Dialogue: 0,0:11:02.25,0:11:03.36,FMA2 Default ARA,Nina,0,0,0,,{\be1}.. أبي
+Dialogue: 0,0:11:05.11,0:11:06.90,FMA2 Default ARA,Nina,0,0,0,,{\be1}ما هو التقييم ؟
+Dialogue: 0,0:11:09.78,0:11:15.53,FMA2 Default ARA,Tucker,0,0,0,,{\be1}على خيميائيي الدولة أن يعطوا تقريراً سنوياً بنتائج بحوثهم
+Dialogue: 0,0:11:16.98,0:11:20.52,FMA2 Default ARA,Tucker,0,0,0,,{\be1}والدك لم يحصل على تقييم جيد السنة الفائتة
+Dialogue: 0,0:11:21.09,0:11:25.50,FMA2 Default ARA,Tucker,0,0,0,,{\be1}إذا فشلت هذه السنة فسأفقد موقعي كخيميائي دولة
+Dialogue: 0,0:11:25.63,0:11:29.13,FMA2 Default ARA,Nina,0,0,0,,{\be1}! ستكون بخير يا أبي
+Dialogue: 0,0:11:29.13,0:11:31.31,FMA2 Default ARA,Nina,0,0,0,,{\be1}فأنت تدرس كثيراً
+Dialogue: 0,0:11:33.54,0:11:35.79,FMA2 Self ARA,Tucker,0,0,0,,{\be1}{\fad(0,200)}نعم، علي أن أبذل ما بوسعي
+Dialogue: 0,0:11:37.86,0:11:40.33,FMA2 Self ARA,Tucker,0,0,0,,{\be1}{\fad(0,200)}ليس هناك خيار آخر
+Dialogue: 0,0:11:41.13,0:11:43.97,FMA2 Names,,0,0,0,,{\be19\blur3.8\pos(95,238)}نـيـنـا
+Dialogue: 0,0:11:41.13,0:11:43.97,FMA2 Names,,0,0,0,,{\be19\blur3.8\pos(281,220)}ألكساندر
+Dialogue: 0,0:11:43.97,0:11:47.06,FMA2 Names,,0,0,0,,{\be19\blur3.8}شـو تـاكـر
+Dialogue: 0,0:11:50.49,0:11:52.05,FMA2 Default ARA,Al,0,0,0,,{\be1}أمكِ قبل سنتين ؟
+Dialogue: 0,0:11:53.04,0:11:55.75,FMA2 Default ARA,Nina,0,0,0,,{\be1}قال أبي أنها عادت إلى بيت ذويها
+Dialogue: 0,0:11:56.42,0:11:57.58,FMA2 Default ARA,Al,0,0,0,,{\be1}فهمت
+Dialogue: 0,0:11:57.78,0:12:01.11,FMA2 Default ARA,Al,0,0,0,,{\be1}لا بد أنك تشعرين بالوحدة بوجودك أنت ووالدك فقط في بيت كبير كهذا
+Dialogue: 0,0:12:01.65,0:12:02.98,FMA2 Default ARA,Nina,0,0,0,,{\be1}لا، أنا بخير
+Dialogue: 0,0:12:03.73,0:12:07.16,FMA2 Default ARA,Nina,0,0,0,,{\be1}أبي لطيف .. كما أن [ألكساندر] موجود
+Dialogue: 0,0:12:08.92,0:12:15.07,FMA2 Default ARA,Nina,0,0,0,,{\be1}لكن مؤخراً بدأ أبي يقضي معظم وقته في المكتبة، لذا أشعر بالوحدة
+Dialogue: 0,0:12:22.00,0:12:25.30,FMA2 Default ARA,Ed,0,0,0,,{\be1}كتفاي تصلبا
+Dialogue: 0,0:12:25.30,0:12:27.67,FMA2 Default ARA,Al,0,0,0,,{\be1}ما رأيك ببعض التمرين يا أخي ؟
+Dialogue: 0,0:12:28.01,0:12:29.82,FMA2 Default ARA,Ed,0,0,0,,{\be1}فكرة جيدة
+Dialogue: 0,0:12:30.71,0:12:31.39,FMA2 Default ARA,Ed,0,0,0,,{\be1}أيها الكلب
+Dialogue: 0,0:12:32.87,0:12:34.86,FMA2 Default ARA,Ed,0,0,0,,{\be1}! سوف ترافقني في التمرين
+Dialogue: 0,0:12:34.86,0:12:36.39,FMA2 Default ARA,Al,0,0,0,,{\be1}[حسنٌ، تعالي يا [نينا
+Dialogue: 0,0:13:06.15,0:13:09.35,FMA2 Upline ARA,Havoc Flashback,0,0,0,,{\be1}"يوم التقييم قريب، لا تنسَ"
+Dialogue: 0,0:13:17.61,0:13:21.83,FMA2 Default ARA,Hughes,0,0,0,,{\be1}لكن لماذا لا يستهدف سوى خيميائيي الدولة ؟
+Dialogue: 0,0:13:22.50,0:13:25.80,FMA2 Default ARA,Hughes,0,0,0,,{\be1}إذا كان يعادي الجيش بحد ذاته فيمكنه مهاجمة الجنود بلا تمييز
+Dialogue: 0,0:13:26.71,0:13:30.54,FMA2 Default ARA,Hughes,0,0,0,,{\be1}فالخيميائيون لديهم قدرات خاصة تجعل قتلهم أمراً غير سهل
+Dialogue: 0,0:13:30.54,0:13:33.61,FMA2 Default ARA,Hughes,0,0,0,,{\be1}وفوق ذلك كله فهم يملكون امتياز الدولة
+Dialogue: 0,0:13:34.30,0:13:36.33,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}أليس ذلك هو السبب ؟
+Dialogue: 0,0:13:37.95,0:13:40.23,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}امتيازات كثيرة وكمية كبيرة من المكافآت
+Dialogue: 0,0:13:40.98,0:13:43.08,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}هناك الكثير ممن يحسدونهم
+Dialogue: 0,0:13:43.77,0:13:44.62,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}.. وأيضاً
+Dialogue: 0,0:13:45.15,0:13:48.38,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}.. يفترض بالخيميائيين مساعدة الناس
+Dialogue: 0,0:13:48.80,0:13:53.92,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}.. لكن الخيمائيين الذين يبحثون عن الحقيقة، حالما يحصلون على امتياز الدولة
+Dialogue: 0,0:13:53.93,0:13:55.91,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}يتحولون إلى أسلحة بشرية
+Dialogue: 0,0:13:57.15,0:13:59.24,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}.. (وبعد حرب (إشبال
+Dialogue: 0,0:13:59.66,0:14:02.45,FMA2 Default ARA,Armstrong,0,0,0,,{\be1}كثير من الناس صاروا يحقدون علينا
+Dialogue: 0,0:14:06.08,0:14:07.02,FMA2 Default ARA,,0,0,0,,{\be1}.. بلاغ عاجل
+Dialogue: 0,0:14:07.72,0:14:09.87,FMA2 Default ARA,,0,0,0,,{\be1}في حوالي 9:30 من مساء البارحة
+Dialogue: 0,0:14:10.26,0:14:16.78,FMA2 Default ARA,,0,0,0,,{\be1}(أفاد عدد من الشهود أنهم شاهدوا رجلاً بندب على وجهه في محطة مدينة (سنترال
+Dialogue: 0,0:14:17.17,0:14:18.03,FMA2 Default ARA,Hughes,0,0,0,,{\be1}المحطة ؟
+Dialogue: 0,0:14:18.65,0:14:19.84,FMA2 Default ARA,Hughes,0,0,0,,{\be1}ذلك الوغد، هل لاذ بالفرار ؟
+Dialogue: 0,0:14:23.11,0:14:27.12,FMA2 Default ARA,Tucker,0,0,0,,{\be1}حياتنا كانت فظيعة قبل حصولي على امتياز الدولة
+Dialogue: 0,0:14:28.04,0:14:29.33,FMA2 Default ARA,Tucker,0,0,0,,{\be1}كنا فقراء
+Dialogue: 0,0:14:30.54,0:14:34.30,FMA2 Default ARA,Tucker,0,0,0,,{\be1}لم تتحمل زوجتي تلك الحياة فتركتنا
+Dialogue: 0,0:14:36.56,0:14:39.01,FMA2 Default ARA,Tucker,0,0,0,,{\be1}علي النجاح في ذلك التقييم بأي ثمن
+Dialogue: 0,0:14:41.00,0:14:44.00,FMA2 Default ARA,Tucker,0,0,0,,{\be1}لا أريد العودة لتلك الحياة
+Dialogue: 0,0:14:44.46,0:14:46.11,FMA2 Default ARA,Nina,0,0,0,,{\be1}لا عليك يا أبي
+Dialogue: 0,0:14:46.42,0:14:50.56,FMA2 Default ARA,Nina,0,0,0,,{\be1}أنا و[ألكساندر] سنصرخ عليهم بأعلى صوتنا
+Dialogue: 0,0:14:52.66,0:14:54.30,FMA2 Default ARA,Al,0,0,0,,{\be1}[أنت قوية يا [نينا
+Dialogue: 0,0:14:55.01,0:14:58.36,FMA2 Default ARA,Tucker,0,0,0,,{\be1}نينا] .. أتودين اللعب مع والدك غداً ؟]
+Dialogue: 0,0:14:59.01,0:14:59.99,FMA2 Default ARA,Nina,0,0,0,,{\be1}!حقاً ؟
+Dialogue: 0,0:15:00.34,0:15:00.84,FMA2 Default ARA,Tucker,0,0,0,,{\be1}نعم
+Dialogue: 0,0:15:01.32,0:15:02.47,FMA2 Default ARA,Nina,0,0,0,,{\be1}! أنا سعيدة
+Dialogue: 0,0:15:03.75,0:15:07.15,FMA2 Default ARA,Nina,0,0,0,,{\be1}! ألكساندر] ! أبي قال أنه سيلعب معنا]
+Dialogue: 0,0:15:18.31,0:15:22.19,FMA2 Default ARA,Al,0,0,0,,{\be1}مساء الخير سيد [تاكر]، نتطلع إلى مساعدتك لنا اليوم أيضاً
+Dialogue: 0,0:15:22.99,0:15:23.72,FMA2 Default ARA,Al,0,0,0,,{\be1}ماذا ؟
+Dialogue: 0,0:15:25.71,0:15:26.90,FMA2 Default ARA,Al,0,0,0,,{\be1}! [سيد [تاكر
+Dialogue: 0,0:15:27.03,0:15:29.14,FMA2 Default ARA,Ed,0,0,0,,{\be1}[يا [نينا
+Dialogue: 0,0:15:31.88,0:15:32.78,FMA2 Default ARA,Al,0,0,0,,{\be1}سيد [تاكر] ؟
+Dialogue: 0,0:15:33.07,0:15:34.96,FMA2 Default ARA,Ed,0,0,0,,{\be1}أنت هنا إذاً
+Dialogue: 0,0:15:35.99,0:15:36.70,FMA2 Default ARA,Tucker,0,0,0,,{\be1}أهلاً
+Dialogue: 0,0:15:38.20,0:15:40.91,FMA2 Default ARA,Tucker,0,0,0,,{\be1}! لقد فعلتُها .. وبشكل مثالي
+Dialogue: 0,0:15:41.87,0:15:44.53,FMA2 Default ARA,Tucker,0,0,0,,{\be1}إنها "الكيميرا" التي تفهم لغة البشر
+Dialogue: 0,0:15:47.34,0:15:48.13,FMA2 Default ARA,Tucker,0,0,0,,{\be1}.. انظرا لهذا
+Dialogue: 0,0:15:49.40,0:15:52.25,FMA2 Default ARA,Tucker,0,0,0,,{\be1}[اسمعيني، هذا الشخص يدعى [إدوارد
+Dialogue: 0,0:15:53.01,0:15:55.25,FMA2 Default ARA,Chimera,0,0,0,,{\be1}[إد .. وارد]
+Dialogue: 0,0:15:55.65,0:15:57.92,FMA2 Default ARA,Tucker,0,0,0,,{\be1}! نعم ! عمل رائع
+Dialogue: 0,0:15:58.01,0:16:00.64,FMA2 Default ARA,Ed,0,0,0,,{\be1}مذهل .. إنها تتكلم فعلاً
+Dialogue: 0,0:16:00.85,0:16:04.55,FMA2 Default ARA,Tucker,0,0,0,,{\be1}وبهذا يمكنني المحافظة على امتياز الدولة
+Dialogue: 0,0:16:06.06,0:16:08.48,FMA2 Default ARA,Chimera,0,0,0,,{\be1}[إد .. وارد]
+Dialogue: 0,0:16:11.44,0:16:13.57,FMA2 Default ARA,Chimera,0,0,0,,{\be1}[إد .. وارد]
+Dialogue: 0,0:16:14.41,0:16:16.16,FMA2 Default ARA,Chimera,0,0,0,,{\be1}[إد .. وارد]
+Dialogue: 0,0:16:17.35,0:16:18.90,FMA2 Default ARA,Chimera,0,0,0,,{\be1}أ .. خي
+Dialogue: 0,0:16:28.66,0:16:29.53,FMA2 Default ARA,Ed,0,0,0,,{\be1}.. [سيد [تاكر
+Dialogue: 0,0:16:30.64,0:16:32.83,FMA2 Default ARA,Ed,0,0,0,,{\be1}متى حصلت على امتياز الدولة ؟
+Dialogue: 0,0:16:33.41,0:16:36.13,FMA2 Default ARA,Tucker,0,0,0,,{\be1}أظن .. قبل سنتين
+Dialogue: 0,0:16:37.78,0:16:39.63,FMA2 Default ARA,Ed,0,0,0,,{\be1}ومتى تركتك زوجتك ؟
+Dialogue: 0,0:16:41.47,0:16:42.85,FMA2 Default ARA,Tucker,0,0,0,,{\be1}قبل سنتين
+Dialogue: 0,0:16:43.64,0:16:45.58,FMA2 Default ARA,Ed,0,0,0,,{\be1}هل لي بسؤال أخير ؟
+Dialogue: 0,0:16:46.78,0:16:49.68,FMA2 Default ARA,Ed,0,0,0,,{\be1}أين [نينا] و[ألكساندر] ؟
+Dialogue: 0,0:16:53.90,0:16:56.11,FMA2 Default ARA,Tucker,0,0,0,,{\be1}أكره الأشقياء الذكيين مثلك
+Dialogue: 0,0:16:58.23,0:16:59.08,FMA2 Default ARA,Al,0,0,0,,{\be1}!أخي ؟
+Dialogue: 0,0:16:59.26,0:17:02.22,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! نعم هكذا إذاً، لقد فعلتها
+Dialogue: 0,0:17:02.84,0:17:04.64,FMA2 Anger ARA,Ed,0,0,0,,{\be1}قبل سنتين بزوجتك
+Dialogue: 0,0:17:05.12,0:17:09.32,FMA2 Anger ARA,Ed,0,0,0,,{\be1}"وهذه المرة استخدمت ابنتك وكلبها لتحويل "كيميرا
+Dialogue: 0,0:17:10.17,0:17:12.67,FMA2 Anger ARA,Ed,0,0,0,,{\be1}.. بما أن إمكانية التجربة على الحيوانات محدودة
+Dialogue: 0,0:17:13.27,0:17:14.74,FMA2 Anger ARA,Ed,0,0,0,,{\be1}.. لا بد أن الأسهل
+Dialogue: 0,0:17:14.76,0:17:16.59,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! استخدام البشر
+Dialogue: 0,0:17:16.97,0:17:19.55,FMA2 Default ARA,Tucker,0,0,0,,{\be1}لمَ .. لماذا أنت غاضب هكذا ؟
+Dialogue: 0,0:17:20.00,0:17:24.55,FMA2 Default ARA,Tucker,0,0,0,,{\be1}البشر يتقدمون، فكلنا نواتج تجارب بشرية، صحيح ؟
+Dialogue: 0,0:17:24.89,0:17:26.31,FMA2 Default ARA,Tucker,0,0,0,,{\be1}.. إذا كنت عالماً مثلي
+Dialogue: 0,0:17:26.31,0:17:27.34,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! اخرس
+Dialogue: 0,0:17:27.91,0:17:30.05,FMA2 Anger ARA,Ed,0,0,0,,{\be1}أتظن أن فعلك هذا يمكن أن يغتفر ؟
+Dialogue: 0,0:17:30.60,0:17:34.55,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! بعد أن لعبت بالبشر هكذا
+Dialogue: 0,0:17:35.15,0:17:36.49,FMA2 Default ARA,Tucker,0,0,0,,{\be1}! حياة البشر
+Dialogue: 0,0:17:37.60,0:17:39.57,FMA2 Default ARA,Tucker,0,0,0,,{\be1}نعم، حياة البشر
+Dialogue: 0,0:17:40.29,0:17:44.98,FMA2 Default ARA,Tucker,0,0,0,,{\be1}.. أيها الخيميائي المعدني ! أطرافك هذه وجسد أخيك
+Dialogue: 0,0:17:45.35,0:17:49.57,FMA2 Default ARA,Tucker,0,0,0,,{\be1}أليست نواتج ما تدعوه لعباً بحياة البشر ؟
+Dialogue: 0,0:17:50.18,0:17:51.16,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! كلا
+Dialogue: 0,0:17:54.63,0:17:57.87,FMA2 Default ARA,Tucker,0,0,0,,{\be1}! .. ما الشيء نفسه .. أنت وأنا
+Dialogue: 0,0:17:58.33,0:17:59.13,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! كلا
+Dialogue: 0,0:17:59.21,0:18:03.36,FMA2 Default ARA,Tucker,0,0,0,,{\be1}بل هي كذلك ! لأن الفرصة كانت أمامك، قمت بتجربتها
+Dialogue: 0,0:18:03.89,0:18:06.26,FMA2 Default ARA,Tucker,0,0,0,,{\be1}مع أنك كنت تعلم أنها محرمة
+Dialogue: 0,0:18:06.46,0:18:07.42,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! كلا
+Dialogue: 0,0:18:08.61,0:18:09.68,FMA2 Anger ARA,Ed,0,0,0,,{\be1}.. أنا
+Dialogue: 0,0:18:10.46,0:18:11.99,FMA2 Anger ARA,Ed,0,0,0,,{\be1}.. الخيميائيون
+Dialogue: 0,0:18:12.83,0:18:13.92,FMA2 Anger ARA,Ed,0,0,0,,{\be1}.. لا
+Dialogue: 0,0:18:15.09,0:18:15.82,FMA2 Anger ARA,Ed,0,0,0,,{\be1}.. أنا
+Dialogue: 0,0:18:16.74,0:18:17.44,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! .. أنا
+Dialogue: 0,0:18:17.62,0:18:18.45,FMA2 Default ARA,Al,0,0,0,,{\be1}! أخي
+Dialogue: 0,0:18:20.01,0:18:21.86,FMA2 Default ARA,Al,0,0,0,,{\be1}ستقتله إن تابعت
+Dialogue: 0,0:18:32.86,0:18:34.54,FMA2 Default ARA,Chimera,0,0,0,,{\be1}أ ..بي
+Dialogue: 0,0:18:35.85,0:18:36.68,FMA2 Default ARA,Chimera,0,0,0,,{\be1}هل تتألم ؟
+Dialogue: 0,0:18:37.67,0:18:39.00,FMA2 Default ARA,Chimera,0,0,0,,{\be1}أ .. بي
+Dialogue: 0,0:18:39.61,0:18:40.54,FMA2 Default ARA,Chimera,0,0,0,,{\be1}هل تتألم ؟
+Dialogue: 0,0:18:46.86,0:18:47.75,FMA2 Default ARA,Al,0,0,0,,{\be1}آسف
+Dialogue: 0,0:18:48.53,0:18:52.64,FMA2 Default ARA,Al,0,0,0,,{\be1}لا يمكننا إعادتك بقوانا نحن
+Dialogue: 0,0:18:54.29,0:18:55.04,FMA2 Default ARA,Al,0,0,0,,{\be1}آسف
+Dialogue: 0,0:18:56.31,0:18:57.06,FMA2 Default ARA,Al,0,0,0,,{\be1}.. آسف
+Dialogue: 0,0:18:57.43,0:18:59.17,FMA2 Default ARA,Chimera,0,0,0,,{\be1}فلـ .. نلعب
+Dialogue: 0,0:18:59.57,0:19:00.89,FMA2 Default ARA,Chimera,0,0,0,,{\be1}هيا نلعب
+Dialogue: 0,0:19:02.49,0:19:03.71,FMA2 Default ARA,Tucker,0,0,0,,{\be1}ما زال لدي وقت
+Dialogue: 0,0:19:04.20,0:19:07.07,FMA2 Default ARA,Tucker,0,0,0,,{\be1}بمقدوري الحفاظ على منصبي
+Dialogue: 0,0:19:18.97,0:19:21.43,FMA2 Default ARA,Ed,0,0,0,,{\be1}تباً لذلك المنصب
+Dialogue: 0,0:19:22.00,0:19:22.77,FMA2 Default ARA,Ed,0,0,0,,{\be1}! اللعنة
+Dialogue: 0,0:19:24.78,0:19:26.89,FMA2 Default ARA,Chimera,0,0,0,,{\be1}دعنا .. نلعب
+Dialogue: 0,0:19:29.59,0:19:31.02,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! اللعنة
+Dialogue: 0,0:19:35.56,0:19:38.26,FMA2 Default ARA,Hawkeye,0,0,0,,{\be1}إذا كان هناك ما يستحق تسميته "عمل شيطان" في هذا العالم
+Dialogue: 0,0:19:38.97,0:19:41.58,FMA2 Default ARA,Hawkeye,0,0,0,,{\be1}فهذه الحادثة مثال عليه
+Dialogue: 0,0:19:42.54,0:19:44.04,FMA2 Default ARA,Mustang,0,0,0,,{\be1}شيطان ؟
+Dialogue: 0,0:19:44.81,0:19:50.90,FMA2 Default ARA,Mustang,0,0,0,,{\be1}ولكن .. خيميائيو الدولة يقتلون البشر حين يؤمرون بذلك
+Dialogue: 0,0:19:52.15,0:19:57.55,FMA2 Default ARA,Mustang,0,0,0,,{\be1}إذا كانت حياة البشر هي المسألة، فليس بيننا وبين ما فعله [تاكر] فرق كبير
+Dialogue: 0,0:19:59.55,0:20:02.92,FMA2 Default ARA,Mustang,0,0,0,,{\be1}ومع أنك تعرف هذا جيداً، اخترت هذا الطريق
+Dialogue: 0,0:20:05.84,0:20:06.67,FMA2 Default ARA,Mustang,0,0,0,,{\be1}صحيح ؟
+Dialogue: 0,0:20:06.81,0:20:08.67,FMA2 Default ARA,Mustang,0,0,0,,{\be1}أيها المعدني
+Dialogue: 0,0:20:13.96,0:20:16.86,FMA2 Default ARA,Mustang,0,0,0,,{\be1}ستواجه قضايا كهذه في المستقبل بلا شك
+Dialogue: 0,0:20:18.29,0:20:20.81,FMA2 Default ARA,Mustang,0,0,0,,{\be1}وقد تضطر أن تتورط بها أيضاً
+Dialogue: 0,0:20:21.51,0:20:24.10,FMA2 Default ARA,Mustang,0,0,0,,{\be1}هل ستتوقف في ذلك الوقت ؟
+Dialogue: 0,0:20:24.76,0:20:28.38,FMA2 Default ARA,Ed,0,0,0,,{\be1}سواء دعوني بكلب العسكرية أو اعتبروني شيطاناً
+Dialogue: 0,0:20:29.14,0:20:32.58,FMA2 Default ARA,Ed,0,0,0,,{\be1}أنا و[آل] سنعود لجسدينا
+Dialogue: 0,0:20:33.44,0:20:34.30,FMA2 Default ARA,Ed,0,0,0,,{\be1}.. ولكن
+Dialogue: 0,0:20:35.52,0:20:39.24,FMA2 Default ARA,Ed,0,0,0,,{\be1}لسنا شياطيناً .. كما لسنا آلهة
+Dialogue: 0,0:20:40.45,0:20:41.54,FMA2 Default ARA,Ed,0,0,0,,{\be1}نحن بشر
+Dialogue: 0,0:20:44.31,0:20:46.47,FMA2 Anger ARA,Ed,0,0,0,,{\be1}! نحن بشر
+Dialogue: 0,0:20:49.52,0:20:52.56,FMA2 Default ARA,Ed,0,0,0,,{\be1}.. نحن بشرٌ ضعاف
+Dialogue: 0,0:20:54.22,0:20:56.20,FMA2 Default ARA,Ed,0,0,0,,{\be1}لم نستطع حتى إنقاذ طفلة صغيرة
+Dialogue: 0,0:20:59.19,0:21:02.11,FMA2 Default ARA,Tucker,0,0,0,,{\be1}لماذا لا يفهم أحد ؟
+Dialogue: 0,0:21:03.02,0:21:03.67,FMA2 Default ARA,Tucker,0,0,0,,{\be1}[نينا]
+Dialogue: 0,0:21:10.80,0:21:12.53,FMA2 Default ARA,Scar,0,0,0,,{\be1}أنت [شو تاكر]، صحيح ؟
+Dialogue: 0,0:21:13.07,0:21:13.95,FMA2 Default ARA,Tucker,0,0,0,,{\be1}من تكون ؟
+Dialogue: 0,0:21:14.33,0:21:17.53,FMA2 Default ARA,Tucker,0,0,0,,{\be1}! لا يبدو أنك من الجيش
+Dialogue: 0,0:21:18.04,0:21:19.47,FMA2 Default ARA,Tucker,0,0,0,,{\be1}كيف دخلت ؟
+Dialogue: 0,0:21:19.59,0:21:21.33,FMA2 Default ARA,Tucker,0,0,0,,{\be1}كان هناك رجال شرطة على المدخل
+Dialogue: 0,0:21:22.28,0:21:25.38,FMA2 Default ARA,Scar,0,0,0,,{\be1}.. الخيميائيون الذين يحيدون عن طريق الإله
+Dialogue: 0,0:21:28.06,0:21:29.52,FMA2 Default ARA,Scar,0,0,0,,{\be1}سيسقطون
+Dialogue: 0,0:21:38.52,0:21:39.77,FMA2 Default ARA,Chimera,0,0,0,,{\be1}أ .. بي
+Dialogue: 0,0:21:42.17,0:21:43.45,FMA2 Default ARA,Chimera,0,0,0,,{\be1}أ .. بي
+Dialogue: 0,0:21:44.31,0:21:45.85,FMA2 Default ARA,Chimera,0,0,0,,{\be1}أ .. بي
+Dialogue: 0,0:21:47.15,0:21:48.10,FMA2 Default ARA,Scar,0,0,0,,{\be1}أمر مؤسف
+Dialogue: 0,0:21:48.58,0:21:52.31,FMA2 Default ARA,Scar,0,0,0,,{\be1}لقد تحولتِ إلى هذا الشكل ولا توجد طريقة لإعادتك
+Dialogue: 0,0:21:53.56,0:21:56.86,FMA2 Default ARA,Scar,0,0,0,,{\be1}على الأقل، يمكنك مغادرة هذا العالم بسلام
+Dialogue: 0,0:22:02.94,0:22:03.74,FMA2 Default ARA,Scar,0,0,0,,{\be1}يا رب
+Dialogue: 0,0:22:05.51,0:22:09.07,FMA2 Default ARA,Scar,0,0,0,,{\be1}روحا اثنين عادت إليك
+Dialogue: 0,0:22:10.09,0:22:12.93,FMA2 Default ARA,Scar,0,0,0,,{\be1}تغمدهما في وسيع رحمتك
+Dialogue: 0,0:22:13.47,0:22:17.18,FMA2 Default ARA,Scar,0,0,0,,{\be1}امنح هذه الأرواح البائسة الراحة والطمأنينة
+Dialogue: 0,0:22:27.57,0:22:33.08,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― مشهد السماء التي شاهدناها معاً، تلك السماء الحمراء ―
+Dialogue: 0,0:22:33.08,0:22:38.29,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― هل تتذكرها ؟ ―
+Dialogue: 0,0:22:38.29,0:22:44.21,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― قطعنا وعداً يومها ونسمات الصيف تحيط بنا ―
+Dialogue: 0,0:22:44.21,0:22:48.47,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― جلسنا متقاربين ―
+Dialogue: 0,0:22:52.01,0:22:57.52,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― خلف ابتسامتك المصطنعة ―
+Dialogue: 0,0:22:57.52,0:23:02.86,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― يقبع ظل متمدد ―
+Dialogue: 0,0:23:02.86,0:23:12.16,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― لذا تظاهرت أن كل شيء على ما يرام وسايرتك ―
+Dialogue: 0,0:23:13.78,0:23:21.67,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― تابعت انتظار الأخبار التي لم تصل على هذه الطاولة ―
+Dialogue: 0,0:23:24.29,0:23:30.05,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― تلك الليالي الخالية وأوقات الصباح التي لم يفترض بها أن تأتي يوماً ―
+Dialogue: 0,0:23:30.05,0:23:34.80,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― فهمتها جميعاً ―
+Dialogue: 0,0:23:34.80,0:23:40.43,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― مشهد السماء التي شاهدناها معاً، تلك السماء الحمراء ―
+Dialogue: 0,0:23:40.43,0:23:45.36,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― أنا واثق أنك ستتذكرها يوماً ―
+Dialogue: 0,0:23:45.36,0:23:51.20,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― متمسكين بالوعد الذي لم نستطع الحفاظ عليه ―
+Dialogue: 0,0:23:51.20,0:23:55.45,FMA2 O-E Translate ARA,,0,0,0,,{\blur3\fs18)\c&HACACAF&}― سنتابع السير معاً ―
+
+Dialogue: 0,0:23:58.20,0:24:03.54,FMA2 Upline ARA,Narator,0,0,0,,{\be1}[إد] و[آل] اللذان ما يزالان في حزنهما على موت [نينا]، يهاجمان من قبل رجل غامض يدعى [سكار]
+Dialogue: 0,0:24:04.50,0:24:09.05,FMA2 Upline ARA,Narator,0,0,0,,{\be1}في الحلقة القادمة من الخيميائي المعدني
+Dialogue: 0,0:24:09.05,0:24:11.50,FMA2 Upline ARA,Narator,0,0,0,,{\be1}الحلقة 5 : مطر من الأحزان
+Dialogue: 0,0:24:12.01,0:24:16.00,Default,,0,0,0,,{\c&HE2E2E2&\fs45}نـراكـم الـمـرة الـمـقـبـلـة
