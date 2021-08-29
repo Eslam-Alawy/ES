@@ -23,7 +23,7 @@ while i < howmany:
     vids = input("Of VID {0}: Video Subtitle:\n".format(i+1))
     vidsub.append(vids+".ass")
     bd = input("Of VID {0}: Video Number of EP :\n".format(i+1))
-    vidnameoutar.append("[DisCinema.com]_FMAB_EP"+bd+".mp4")
+    vidnameoutar.append("[DisCinema.com]_DN_EP"+bd+".mp4")
     clear()
     i+=1
 
