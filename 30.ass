@@ -1,4 +1,4 @@
-﻿[V4+ Styles]
+[V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Title,Times New Roman,20,&H00E2D2D0,&H000000FF,&H00CCCCCC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,230,178
 Style: Default,Times New Roman,20,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0040,0040,0018,0
