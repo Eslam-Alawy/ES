@@ -28,7 +28,7 @@ while i < howmany:
     #bd = input("Of VID {0}: Video Number of EP :\n".format(i+1))
     #vidnameoutar.append("[DisCinema.com]_AOT_EP"+bd+".mp4")
     if in_start <= end_of:
-         vidnamear.append(str(in_start)+".mkv")
+         vidnamear.append(str(in_start)+".mp4")
          vidsub.append(str(in_start)+".ass")
          vidnameoutar.append("[DisCinema.com]_DN_EP"+str(in_start)+".mp4")
        
