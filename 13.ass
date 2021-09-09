@@ -2,67 +2,31 @@
 ScriptType: v4.00+
 Collisions: Normal
 PlayResX: 640
-PlayResY: 360
+PlayResY: 480
 Timer: 0.0000
 WrapStyle: 0
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
 Style: Title Gundam song,Times New Roman,50,&H001EA4FE,&H00FF0000,&H00000004,&H00000000,0,0,0,0,100,100,0,0,1,1,1,3,0041,0140,0240,0
 Style: songs,Times New Roman,24,&H0000B6FB,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0010,1
 Style: Title Gundam OP,Times New Roman,40,&H00FFFFFF,&H00FF0000,&H00E05241,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,5,0041,0140,0240,0
 Style: brackets,Times New Roman,22,&H00F7F2EC,&H000000FF,&H00D46702,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,0010,0010,0010,1
 Style: Title Gundam END,Times New Roman,40,&H00BDE7EB,&H00FF0000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,1,5,0041,0140,0240,0
-Style: sign_94_1_Late_Night___The,Times New Roman,30,&H00F5F5F5,&H000000FF,&H00585858,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0572,0007,0356,0
-Style: sign_235_4__Papa___Ogura_Hi,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00424242,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,0436,0027,0083,0
-Style: sign_1771_24__CV__Miki__Shini,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00424242,&H00000000,0,0,0,0,100,100,0,0,1,2,1,2,0107,0609,0155,0
-Style: sign_1771_24___CV__Miki__Shin,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00808080,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0027,0529,0267,0
-Style: sign_1821_26_We_ve_gotten_per,Times New Roman,27,&H00FFFFFF,&H000000FF,&H00424242,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0040,0040,0073,0
-Style: sign_2923_48_Call_Ended,Times New Roman,36,&H00C4C4CB,&H000000FF,&H00131313,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0060,0089,0253,0
-Style: sign_3806_64_Late_Night___The,Times New Roman,36,&H003F2A2A,&H000000FF,&H008C665E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0027,0027,0024,0
-Style: sign_3806_65_Episode_1__A_B__,Times New Roman,23,&H003B3433,&H000000FF,&H008C665E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0140,0127,0233,0
-Style: sign_4703_83____we_really_hav,Times New Roman,30,&H001E1E1E,&H000000FF,&H006A7C89,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0111,0425,0299,0
-Style: sign_5107_88_Mystery_Meat___S,Times New Roman,36,&H00000000,&H000000FF,&H00F4F4F4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0027,0027,0027,0
-Style: sign_5165_89_Gari_Gari_kun,Times New Roman,36,&H00ECDD91,&H000000FF,&H00232323,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0033,0413,0253,0
-Style: sign_5165_90_60_yen____70_yen,Times New Roman,36,&H00000000,&H000000FF,&H00F4F4F4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0027,0027,0120,0
-Style: sign_6904_115__Late_Night__The,Times New Roman,27,&H00121212,&H000000FF,&H00E7E7E7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0013,0363,0027,0
-Style: sign_9276_149_Late_Night___The,Times New Roman,36,&H00FFFFFF,&H000000FF,&H00864488,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0305,0033,0239,0
-Style: sign_10011_162__Tokyo_Ueno_Clin,Times New Roman,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0027,0027,0093,0
-Style: sign_17004_254__Tokyo_Metropoli,Times New Roman,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0067,0027,0093,0
-Style: sign_17087_255_Tokyo_Governor_,Times New Roman,27,&H00172631,&H000000FF,&H007AA8CC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0027,0533,0080,0
-Style: sign_17685_265_Tokyo_Governor,Times New Roman,36,&H0023222C,&H000000FF,&H0079A9C9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0156,0437,0171,0
-Style: sign_17821_269_Tokyo_Governor_V,Times New Roman,27,&H00000000,&H000000FF,&H00B6BFBF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0013,0493,0151,0
-Style: sign_17821_270_Liars_have_to_sw,Times New Roman,30,&H00060792,&H000000FF,&H00B8C1C2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0532,0000,0139,0
-Style: sign_18071_277_Meiji_Jingu_,Times New Roman,27,&H00000000,&H000000FF,&H0044A17D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0027,0133,0219,0
-Style: sign_18071_278_Yoyogi_Park_,Times New Roman,27,&H00FFFFFF,&H000000FF,&H0001008D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0200,0363,0145,0
-Style: sign_18071_279_Harajuku,Times New Roman,27,&H004E1002,&H000000FF,&H0058ACC1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0177,0027,0093,0
-Style: sign_18444_285_Liars_have_to_sw,Times New Roman,33,&H00060792,&H000000FF,&H00B6BFBF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0432,0067,0240,0
-Style: Show Title 1,Times New Roman,36,&H00FFFFFF,&H000000FF,&H00091EE5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0027,0027,0107,0
-Style: sign_24601_355_Late_Night__The_,Times New Roman,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0120,0187,0016,0
-Style: sign_25470_370_Traffic__Safety_,Times New Roman,27,&H00373737,&H000000FF,&H00457C93,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0547,0169,0147,0
-Style: sign_26416_388_Police__Box_,Times New Roman,24,&H000E1C33,&H000000FF,&H0076929E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0031,0473,0267,0
-Style: sign_28314_422_Banned__For_Life,Times New Roman,33,&H0040FFFD,&H000000FF,&H00570050,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,1,2,0173,0517,0369,0
-Style: sign_28317_423_Infidelity_,Times New Roman,33,&H00000079,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0503,0193,0029,0
-Style: sign_28360_425_Investigation_On,Times New Roman,33,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,-1,0,0,0,100,100,0,0,1,2,1,8,0013,0543,0040,0
-Style: sign_28360_426_Drug_Overdose_,Times New Roman,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0523,0067,0059,0
-Style: sign_28413_429_Violence_,Times New Roman,33,&H00010197,&H000000FF,&H00FFFFFF,&H00703310,-1,0,0,0,100,100,0,0,1,2,1,8,0053,0640,0107,0
-Style: sign_28417_430_Divorce_Finalize,Times New Roman,33,&H0000DDD6,&H000000FF,&H0056300A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0527,0027,0133,0
-Style: sign_28458_431_This_Time__Accus,Times New Roman,33,&H00EBEBEB,&H000000FF,&H0002008D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0027,0427,0027,0
-Style: sign_28455_432_On_Hiatus_,Times New Roman,33,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0533,0080,0160,0
-Style: sign_30226_459_Bad,Times New Roman,45,&H00010184,&H000000FF,&H00000017,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0233,0027,0027,0
-Style: sign_30873_466_Bakabon_s__House,Times New Roman,24,&H00880659,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0617,0093,0253,0
-Style: sign_33659_480_Late_Night___The,Times New Roman,30,&H00000000,&H000000FF,&H00EBEBEB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0003,0653,0073,0
-Style: sign_33659_481_Next_Episode__Pr,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0615,0027,0077,0
-Style: sign_18071_278_Yoyogi_Park_ - Copy,Times New Roman,36,&H00FFFFFF,&H000000FF,&H0001008D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0195,0267,0100,0
-Style: kiyoshi,Times New Roman,30,&H002F1430,&H000000FF,&H003370F3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0027,0027,0027,0
-Style: Show Title 2,Times New Roman,36,&H0010272D,&H000000FF,&H00EFFDF5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0027,0027,0107,0
+Style: songs,Times New Roman,24,&H0000B6FB,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0010,1
+Style: signs,Adobe Arabic,25,&H00384F99,&H000000FF,&H00DEE6E4,&HA0000000,-1,0,0,0,100,100,0,0,1,3,0,2,0010,0010,0010,1
+Style: Ep Title,Times New Roman,30,&H00FFFFFF,&H000000FF,&H00000000,&H0038484B,-1,0,0,0,100,100,0,0,1,1,0,8,0010,0010,0080,1
+Style: Next,Times New Roman,24,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0070,0050,0055,1
+Style: Next Title,Times New Roman,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0050,0050,0100,1
+Style: Top,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,1
+Style: Flashback,Times New Roman,24,&H007ea74f,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
 Style: flashback,Times New Roman,24,&H007ea74f,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
 Style: top,Times New Roman,24,&H00cd16d0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
 Style: Title-Naru,Times New Roman,36,&H00f9cb40,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0010,1
 Style: Nar_title_end,Times New Roman,26,&H00000003,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0010,0010,0018,1
 Style: SignA,Times New Roman,26,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
-Style: SMMain,Times New Roman,24,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0040,0040,0018,0
+Style: Title-Naru_OP -PT2,Times New Roman,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0010,0100,0060,1
+Style: Default,Times New Roman,30,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0040,0040,0018,0
 Style: Title-Naru_OP,Times New Roman,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0010,1
 Style: Kakashi-book,Times New Roman,24,&H00000000,&H00000000,&H003839E0,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
 Style: Title_Naru_end,Times New Roman,26,&H00000003,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0010,0010,0018,1
@@ -70,20 +34,29 @@ Style: sign_nar,Times New Roman,24,&H00000000,&H00FFFFFF,&H00FFFFFF,&H00000000,-
 Style: technique_nar,Times New Roman,24,&H00FFFFFF,&H000000FF,&H003031E8,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
 Style: Italics,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
 Style: Title_SaintSeiya,Times New Roman,26,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0010,0010,0018,1
+Style: kiyoshi,Times New Roman,30,&H002F1430,&H000000FF,&H003370F3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0027,0027,0027,0
+Style: Show Title 2,Times New Roman,36,&H0010272D,&H000000FF,&H00EFFDF5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0027,0027,0107,0
+Style: Flashback,Times New Roman,24,&H007ea74f,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0018,1
+Style: top,Times New Roman,24,&H00cd16d0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0018,0
+Style: Title-Naru,Times New Roman,36,&H00f9cb40,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0010,1
+Style: Nar_title_end,Times New Roman,26,&H00000003,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0010,0010,0018,1
+Style: SignA,Times New Roman,26,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
+Style: SMMain,Times New Roman,30,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0040,0040,0018,0
+
 [Events]
 Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:04:10.00,0:04:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:08:10.00,0:08:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:10:10.00,0:10:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:12:10.00,0:12:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:14:10.00,0:14:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:16:10.00,0:16:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:19:10.00,0:19:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000){\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:21:10.00,0:21:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:23:10.00,0:23:15.25,SignA,Narr,0000,0000,0000,,{\pos(600,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:00:00.00,0:00:09.74,SignA,E,0000,0000,0000,,{\move(320,480,320,200)}{\fad(1000,1000)}{\blur2\pos(310,153)}نتمني لكم مشاهدة ممتعة \N DisCinema.com موقع 
+Dialogue: 0,0:21:25.00,0:21:35.00,SignA,,0000,0000,0000,,{\move(320,480,320,200)}{\fad(1000,1000)}{\blur2\pos(310,153)}زورو موقعنا لمذيد من الحلقات و الانمي و المسلسلات الاخري \N ♥DisCinema.com موقع♥
 
-Dialogue: 0,0:04:10.00,0:04:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:08:10.00,0:08:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:10:10.00,0:10:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:12:10.00,0:12:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:14:10.00,0:14:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:16:10.00,0:16:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:19:10.00,0:19:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000){\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:21:10.00,0:21:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:23:10.00,0:23:15.25,SignA,Narr,0000,0000,0000,,{\pos(590,3)\blur3\c&HACACAF&}{\fs12}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
-Dialogue: 0,0:01:30.00,0:01:40.00,SignA,E,0000,0000,0000,,{\move(320,370,320,100)}{\fad(1000,1000)}{\blur2\pos(310,153)}نتمني لكم مشاهدة ممتعة \N DisCinema.com موقع 
-Dialogue: 0,0:21:25.00,0:21:35.00,SignA,,0000,0000,0000,,{\move(320,370,320,100)}{\fad(1000,1000)}{\blur2\pos(310,153)}زورو موقعنا لمذيد من الحلقات و الانمي و المسلسلات الاخري \N ♥DisCinema.com موقع♥
 
 Dialogue: 0,0:00:10.50,0:00:11.29,songs,,0000,0000,0000,,!هيّا
 Dialogue: 0,0:00:17.64,0:00:20.26,songs,,0000,0000,0000,,أن تركض مثل الهارب
