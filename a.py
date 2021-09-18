@@ -36,15 +36,9 @@ def doitnow():
         y = f.readline()
         z = f.readline()
         qo = z.split(" ")
-        os.system('echo "qo: {0}"'.fromat(qo))
-        yy = qo[0]
-        yw = qo[1]
         yc = qo[2]
-        os.system('echo "yy: {0}"'.fromat(yy))
-        os.system('echo "yw: {0}"'.fromat(yw))
-        os.system('echo "yw: {0}"'.fromat(yc))
-        #yyy = int(yy)
-        #yyy = yyy / (3* 1024)
+        yyy = int(yc)
+        yyy = yyy / (3* 1024)
         os.system('You have {0} GB free'.format(yyy))
         os.system('megaput {0} --config a.megarc | tee {0}.txt'.format(vidnameoutar[k]))
      except:
