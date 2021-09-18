@@ -4,47 +4,60 @@ import os
 #sys.path.append(os.path.abspath("/usr/local/lib/python2.7/dist-packages"))
 #from mega import Mega
 #mega = Mega()
+x = 0
 try:
     f = open("/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf")
     os.system('echo "Starting..."')
+    x=1
     # Do something with the file
 except IOError:
     os.system('echo "Fonts Not Installed"')
+    x=0
 finally:
     f.close()
     
+###############################################################################
+    
+if x == 1:
+    urlar = []
+    vidnamear = []
+    vidsub = []
+    vidnameoutar = []
+    clear()
+    kam = input("How Many Videos You Will Finish Today :\n")
+    howmany = int(kam)
+    start_from = input("Your start from :\n")
+    in_start = int(start_from)
+    end_of = in_start + howmany -1
+    i = 0
+    
+    while i < howmany:
+        #url = input("Of VID {0}: Crunchyorll URL:\n".format(i+1))
+        #urlar.append(url)
+        #va = input("Of VID {0}: Video name:\n".format(i+1))
+        #vidnamear.append(va+".mp4")
+        #vids = input("Of VID {0}: Video Subtitle:\n".format(i+1))
+        #vidsub.append(vids+".ass")
+        #bd = input("Of VID {0}: Video Number of EP :\n".format(i+1))
+        #vidnameoutar.append("[DisCinema.com]_AOT_EP"+bd+".mp4")
+        if in_start <= end_of:
+            vidnamear.append(str(in_start)+".mp4")
+            vidsub.append(str(in_start)+".ass")
+            vidnameoutar.append("[DisCinema.com]_Naruto_Shippuden_S10_EP"+str(in_start)+".mp4")
+       
+        clear()
+        in_start+=1
+        i+=1
+        
+    doitnow()
+else:
+    os.system('echo "closing"')
+    
+    
+    
+    
 def clear():
     os.system('reset')
-urlar = []
-vidnamear = []
-vidsub = []
-vidnameoutar = []
-clear()
-kam = input("How Many Videos You Will Finish Today :\n")
-howmany = int(kam)
-start_from = input("Your start from :\n")
-in_start = int(start_from)
-end_of = in_start + howmany -1
-
-i = 0
-while i < howmany:
-    #url = input("Of VID {0}: Crunchyorll URL:\n".format(i+1))
-    #urlar.append(url)
-    #va = input("Of VID {0}: Video name:\n".format(i+1))
-    #vidnamear.append(va+".mp4")
-    #vids = input("Of VID {0}: Video Subtitle:\n".format(i+1))
-    #vidsub.append(vids+".ass")
-    #bd = input("Of VID {0}: Video Number of EP :\n".format(i+1))
-    #vidnameoutar.append("[DisCinema.com]_AOT_EP"+bd+".mp4")
-    if in_start <= end_of:
-         vidnamear.append(str(in_start)+".mp4")
-         vidsub.append(str(in_start)+".ass")
-         vidnameoutar.append("[DisCinema.com]_Naruto_Shippuden_S10_EP"+str(in_start)+".mp4")
-       
-    clear()
-    in_start+=1
-    i+=1
-
 
 def doitnow():
     k = 0
@@ -70,6 +83,5 @@ def uploadit():
      os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
      k+=1 
     
-    
-doitnow()
+
 #uploadit()
