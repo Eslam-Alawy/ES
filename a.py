@@ -4,6 +4,15 @@ import os
 #sys.path.append(os.path.abspath("/usr/local/lib/python2.7/dist-packages"))
 #from mega import Mega
 #mega = Mega()
+try:
+    f = open("/usr/share/fonts/truetype/msttcorefonts/Times_New_Roman.ttf")
+    os.system('echo "Starting..."')
+    # Do something with the file
+except IOError:
+    os.system('echo "Fonts Not Installed"')
+finally:
+    f.close()
+    
 def clear():
     os.system('reset')
 urlar = []
