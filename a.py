@@ -30,6 +30,15 @@ def doitnow():
      os.system('rm -f {0} && rm -f {1}'.format(vidsub[k],vidnamear[k]))
      #os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
      try:
+        os.system('megadf --config a.megarc | tee qouta.txt')
+        f = open("qouta.txt", "r")
+        x = f.readline()
+        y = f.readline()
+        z = f.readline()
+        qo = z.split(" ")
+        yy = int(qo[1])
+        yyy = yy / (3* 1024)
+        os.system('You have {0} GB free'.format(yyy))
         os.system('megaput {0} --config a.megarc | tee {0}.txt'.format(vidnameoutar[k]))
      except:
         traceback.print_exc()
