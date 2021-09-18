@@ -38,12 +38,12 @@ def doitnow():
         yc = qo[2]
         yyy = int(yc)
         #yyy = yyy / (3 * 1024)
-        os.system('echo "You have {0} bytes free"'.format(yyy))
+        #os.system('echo "You have {0} bytes free"'.format(yyy))
         
         file= Path(r'{0}'.format(vidnameoutar[k])).stat().st_size
         #fz = file / (3 * 1024)
-        os.system('echo "File size {0} bytes"'.format(file))
-        
+        #os.system('echo "File size {0} bytes"'.format(file))
+        os.system('rm -f qouta.txt')
         if file < yyy:
             os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
         else:
