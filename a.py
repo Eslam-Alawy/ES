@@ -42,7 +42,7 @@ def doitnow():
         x_gdeda += 1
         usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
         os.system('rm -f a.megarc')
-        os.system('printf "[Login]\n{1}\n{2}" > {0}.py'.format("a.megarc",usern,z))
+        os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
         os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
         
     
