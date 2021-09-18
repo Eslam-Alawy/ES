@@ -30,7 +30,7 @@ while i < howmany:
     if in_start <= end_of:
          vidnamear.append(str(in_start)+".mp4")
          vidsub.append(str(in_start)+".ass")
-         vidnameoutar.append("[DisCinema.com]_Naruto_Shippuden_S8_EP"+str(in_start)+".mp4")
+         vidnameoutar.append("[DisCinema.com]_Naruto_Shippuden_S5_EP"+str(in_start)+".mp4")
        
     clear()
     in_start+=1
