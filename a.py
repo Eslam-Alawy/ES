@@ -38,11 +38,11 @@ def doitnow():
         qo = z.split(" ")
         yc = qo[2]
         yyy = int(yc)
-        yyy = yyy / (3* 1024)
+        yyy = yyy / (3 * 1024)
         os.system('echo "You have {0} GB free"'.format(yyy))
         
         file= Path(r'{0}'.format(vidnameoutar[k])).stat().st_size
-        fz = file / (3* 1024)
+        fz = file / (3 * 1024)
         os.system('echo "File size {0} GB"'.format(fz))
         
         os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
