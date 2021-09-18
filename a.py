@@ -39,7 +39,7 @@ def doitnow():
         yc = qo[2]
         yyy = int(yc)
         yyy = yyy / (3* 1024)
-        os.system('You have {0} GB free'.format(yyy))
+        os.system('echo "You have {0} GB free"'.format(yyy))
         os.system('megaput {0} --config a.megarc | tee {0}.txt'.format(vidnameoutar[k]))
      except:
         traceback.print_exc()
