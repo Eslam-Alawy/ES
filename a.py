@@ -42,7 +42,7 @@ def doitnow():
         os.system('echo "You have {0} GB free"'.format(yyy))
         
         file= Path(r'{0}'.format(vidnameoutar[k])).stat().st_size
-        file = file / (3* 1024)
+        fz = file / (3* 1024)
         os.system('echo "File size {0} GB"'.format(file))
         
         os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
@@ -64,7 +64,7 @@ def doitnow():
         
     
      os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
-     os.system('rm -f {0}'.format(vidnameoutar[k]))
+     #os.system('rm -f {0}'.format(vidnameoutar[k]))
      #os.system('touch {0}.py'.format(vidnameoutar[k]))
      #os.system('printf "import sys\nimport os\nsys.path.append(os.path.abspath(\'/usr/local/lib/python2.7/dist-packages\'))\nfrom mega import Mega\nmega = Mega()\nm = mega.login(\'discinema_1@getnada.com\',\'Lord7418529630\')\nfile = m.upload(\'{0}\')\nos.system(\'rm {0}.py && rm {0} && rm {1} && rm {2}\')" > {0}.py'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
      #os.system('xfce4-terminal -x sh -c "python3 {0}.py; bash"'.format(vidnameoutar[k]))
