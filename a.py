@@ -30,7 +30,7 @@ def doitnow():
      os.system('rm -f {0} && rm -f {1}'.format(vidsub[k],vidnamear[k]))
      #os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
      try:
-        os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k])) > vidnameoutar[k].txt
+        os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k])) | tee vidnamear[k].txt
      except:
         traceback.print_exc()
         f = open("a.megarc", "r")
