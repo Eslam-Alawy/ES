@@ -45,7 +45,12 @@ def doitnow():
         #fz = file / (3 * 1024)
         os.system('echo "File size {0} bytes"'.format(file))
         
-        os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+        if file < yyy:
+            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+        else:
+            os.system('echo "Can not upload will upload to another Account"')
+        
+        
      except:
         traceback.print_exc()
         f = open("a.megarc", "r")
