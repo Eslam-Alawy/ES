@@ -55,6 +55,7 @@ if x == 1:
     vidsub = []
     vidnameoutar = []
     clear()
+    s_season = input("Season: \n")
     kam = input("How Many Videos You Will Finish Today :\n")
     howmany = int(kam)
     start_from = input("Your start from :\n")
@@ -74,7 +75,7 @@ if x == 1:
         if in_start <= end_of:
             vidnamear.append(str(in_start)+".mp4")
             vidsub.append(str(in_start)+".ass")
-            vidnameoutar.append("[DisCinema.com]_Naruto_Shippuden_S10_EP"+str(in_start)+".mp4")
+            vidnameoutar.append("[DisCinema.com]_Naruto_Shippuden_S"+ s_season +"_EP"+str(in_start)+".mp4")
        
         clear()
         in_start+=1
