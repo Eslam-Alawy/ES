@@ -27,8 +27,7 @@ def doitnow():
     while k < howmany:
      #os.system('youtube-dl -f best --console-title --newline --no-warnings --no-part -o "{1}" --user-agent "Mozilla / 5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko / 20100101 Firefox / 65.0" -v --newline {0}'.format(urlar[k],vidnamear[k]))
      os.system('ffmpeg -i {0} -i logo.png  -filter_complex "overlay=5:5:format=auto,format=yuv420p,ass={1}" {2}'.format(vidnamear[k],vidsub[k],vidnameoutar[k]))
-     #os.system('rm -f {0} && rm -f {1}'.format(vidsub[k],vidnamear[k]))
-     #os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+     os.system('rm -f {0} && rm -f {1}'.format(vidsub[k],vidnamear[k]))
      try:
         os.system('megadf --config a.megarc | tee qouta.txt')
         f = open("qouta.txt", "r")
@@ -49,27 +48,26 @@ def doitnow():
             os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
         else:
             os.system('echo "Can not upload will upload to another Account"')
-        
-        
+            f = open("a.megarc", "r")
+            x = f.readline()
+            y = f.readline()
+            z = f.readline()
+            yy = y.split("=")
+            xx = yy[1].split("@")
+            xxx = xx[0].split("_")
+            x_gdeda = int(xxx[1])
+            x_gdeda += 1
+            usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
+            os.system('rm -f a.megarc')
+            os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
+            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+    
      except:
-        traceback.print_exc()
-        f = open("a.megarc", "r")
-        x = f.readline()
-        y = f.readline()
-        z = f.readline()
-        yy = y.split("=")
-        xx = yy[1].split("@")
-        xxx = xx[0].split("_")
-        x_gdeda = int(xxx[1])
-        x_gdeda += 1
-        usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
-        os.system('rm -f a.megarc')
-        os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
-        os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+        os.system('echo "Error on command"')
         
     
      os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
-     #os.system('rm -f {0}'.format(vidnameoutar[k]))
+     os.system('rm -f {0}'.format(vidnameoutar[k]))
      #os.system('touch {0}.py'.format(vidnameoutar[k]))
      #os.system('printf "import sys\nimport os\nsys.path.append(os.path.abspath(\'/usr/local/lib/python2.7/dist-packages\'))\nfrom mega import Mega\nmega = Mega()\nm = mega.login(\'discinema_1@getnada.com\',\'Lord7418529630\')\nfile = m.upload(\'{0}\')\nos.system(\'rm {0}.py && rm {0} && rm {1} && rm {2}\')" > {0}.py'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
      #os.system('xfce4-terminal -x sh -c "python3 {0}.py; bash"'.format(vidnameoutar[k]))
