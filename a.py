@@ -30,7 +30,7 @@ def doitnow():
      #os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
      try:
         os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
-     except IOError:
+     except:
         f = open("a.megarc", "r")
         x = f.readline()
         y = f.readline()
