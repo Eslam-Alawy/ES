@@ -26,8 +26,8 @@ def doitnow():
     k = 0
     while k < howmany:
      #os.system('youtube-dl -f best --console-title --newline --no-warnings --no-part -o "{1}" --user-agent "Mozilla / 5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko / 20100101 Firefox / 65.0" -v --newline {0}'.format(urlar[k],vidnamear[k]))
-     os.system('ffmpeg -i {0} -i logo.png  -filter_complex "overlay=5:5:format=auto,format=yuv420p,ass={1}" {2}'.format(vidnamear[k],vidsub[k],vidnameoutar[k]))
-     os.system('rm -f {0} && rm -f {1}'.format(vidsub[k],vidnamear[k]))
+     #os.system('ffmpeg -i {0} -i logo.png  -filter_complex "overlay=5:5:format=auto,format=yuv420p,ass={1}" {2}'.format(vidnamear[k],vidsub[k],vidnameoutar[k]))
+     #os.system('rm -f {0} && rm -f {1}'.format(vidsub[k],vidnamear[k]))
      #os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
      try:
         os.system('megadf --config a.megarc | tee qouta.txt')
@@ -36,9 +36,15 @@ def doitnow():
         y = f.readline()
         z = f.readline()
         qo = z.split(" ")
-        yy = qo[1]
-        yyy = int(yy)
-        yyy = yyy / (3* 1024)
+        os.system('echo "qo: {0}"'.fromat(qo))
+        yy = qo[0]
+        yw = qo[1]
+        yc = qo[2]
+        os.system('echo "yy: {0}"'.fromat(yy))
+        os.system('echo "yw: {0}"'.fromat(yw))
+        os.system('echo "yw: {0}"'.fromat(yc))
+        #yyy = int(yy)
+        #yyy = yyy / (3* 1024)
         os.system('You have {0} GB free'.format(yyy))
         os.system('megaput {0} --config a.megarc | tee {0}.txt'.format(vidnameoutar[k]))
      except:
