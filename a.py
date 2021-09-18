@@ -13,8 +13,8 @@ try:
 except IOError:
     os.system('echo "Fonts Not Installed"')
     x=0
-finally:
-    f.close()
+#finally:
+    #f.close()
     
 ###############################################################################
 #func
