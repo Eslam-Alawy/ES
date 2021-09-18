@@ -32,6 +32,18 @@ def doitnow():
         os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
      except IOError:
         f = open("a.megarc", "r")
+        x = f.readline()
+        y = f.readline()
+        z = f.readline()
+        yy = y.split("=")
+        xx = yy[1].split("@")
+        xxx = xx[0].split("_")
+        x_gdeda = int(xxx[1])
+        x_gdeda += 1
+        usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
+        os.system('rm -f a.megarc')
+        os.system('printf "[Login]\n{1}\n{2}" > {0}.py'.format("a.megarc",usern,z))
+        os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
         
     
      os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
