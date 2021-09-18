@@ -83,4 +83,5 @@ if x == 1:
         
     doitnow()
 else:
-    os.system('echo "closing"')
+    os.system('echo "closing Will install it manaully"')
+    os.system('sudo apt-get --reinstall install ttf-mscorefonts-installer')
