@@ -42,8 +42,10 @@ def doitnow():
         os.system('echo "You have {0} GB free"'.format(yyy))
         
         file= Path(r'{0}'.format(vidnameoutar[k])).stat().st_size
-        os.system('echo "File size {0}"'.format(file))
-        os.system('megaput {0} --config a.megarc | tee {0}.txt'.format(vidnameoutar[k]))
+        file = file / (3* 1024)
+        os.system('echo "File size {0} GB"'.format(file))
+        
+        os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
      except:
         traceback.print_exc()
         f = open("a.megarc", "r")
