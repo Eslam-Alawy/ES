@@ -1,3 +1,4 @@
+import random
 from array import *
 from pathlib import Path
 import os
@@ -29,8 +30,18 @@ def doitnow():
      os.system('ffmpeg -i {0} -i logo.png  -filter_complex "overlay=5:5:format=auto,format=yuv420p,ass={1}" {2}'.format(vidnamear[k],vidsub[k],vidnameoutar[k]))
      os.system('rm -f {0} && rm -f {1}'.format(vidsub[k],vidnamear[k]))
      try:
+        saatring = "abcdefghijklmnopqrstuvwxyz"
+        arrafay = []
+        for c in saatring:
+            arrafay += [c]
+            
+            
+        randomdas = arrafay[random.randint(0, len(array)-1)]
+        asmbdan = "qouta" + randomdas + ".txt"
+        
         os.system('megadf --config a.megarc | tee qouta.txt')
-        f = open("qouta.txt", "r")
+        #f = open("qouta.txt", "r")
+        f = open(asmbdan,"r")
         x = f.readline()
         y = f.readline()
         z = f.readline()
@@ -43,7 +54,7 @@ def doitnow():
         file= Path(r'{0}'.format(vidnameoutar[k])).stat().st_size
         #fz = file / (3 * 1024)
         #os.system('echo "File size {0} bytes"'.format(file))
-        os.system('rm -f qouta.txt')
+        os.system('rm -f {0}'.format(asmbdan))
         if file < yyy:
             os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
         else:
