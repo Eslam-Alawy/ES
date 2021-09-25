@@ -112,7 +112,7 @@ if x == 1:
         if in_start <= end_of:
             vidnamear.append(str(in_start)+".mp4")
             vidsub.append(str(in_start)+".ass")
-            vidnameoutar.append("[DisCinema.com]_Naruto_Shippuden_S"+ s_season +"_EP"+str(in_start)+".mp4")
+            vidnameoutar.append("[DisCinema.com]_Black_Clover_S"+ s_season +"_EP"+str(in_start)+".mp4")
        
         clear()
         in_start+=1
