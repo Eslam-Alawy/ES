@@ -45,7 +45,11 @@ def doitnow():
         #os.system('echo "File size {0} bytes"'.format(file))
         os.system('rm -f qouta.txt')
         if file < yyy:
-            os.system('megaput {0} --config a.megarc | tee upload.txt'.format(vidnameoutar[k]))
+            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+            #kont b7awel any lw al mlf mtrf34 arf3o 3n try2 lw el upload mktb4 uploading wkda
+            #with open('example.txt') as f:
+                #if 'Uploaded' in f.read():
+                    #os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
         else:
             os.system('echo "Can not upload will upload to another Account"')
             f = open("a.megarc", "r")
@@ -60,13 +64,48 @@ def doitnow():
             usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
             os.system('rm -f a.megarc')
             os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
-            os.system('megaput {0} --config a.megarc | tee upload.txt'.format(vidnameoutar[k]))
+            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
     
      except:
-        os.system('echo "Error on command"')
+        os.system('echo "Error on command, Retrying the Whole Process"')
+        os.system('megadf --config a.megarc | tee qouta.txt')
+        f = open("qouta.txt", "r")
+        x = f.readline()
+        y = f.readline()
+        z = f.readline()
+        qo = z.split(" ")
+        yc = qo[2]
+        yyy = int(yc)
+        #yyy = yyy / (3 * 1024)
+        #os.system('echo "You have {0} bytes free"'.format(yyy))
         
+        file= Path(r'{0}'.format(vidnameoutar[k])).stat().st_size
+        #fz = file / (3 * 1024)
+        #os.system('echo "File size {0} bytes"'.format(file))
+        os.system('rm -f qouta.txt')
+        if file < yyy:
+            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+            #kont b7awel any lw al mlf mtrf34 arf3o 3n try2 lw el upload mktb4 uploading wkda
+            #with open('example.txt') as f:
+                #if 'Uploaded' in f.read():
+                    #os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
+        else:
+            os.system('echo "Can not upload will upload to another Account"')
+            f = open("a.megarc", "r")
+            x = f.readline()
+            y = f.readline()
+            z = f.readline()
+            yy = y.split("=")
+            xx = yy[1].split("@")
+            xxx = xx[0].split("_")
+            x_gdeda = int(xxx[1])
+            x_gdeda += 1
+            usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
+            os.system('rm -f a.megarc')
+            os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
+            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
     
-     os.system('echo "{0} Uploaded Successfully."'.format(vidnameoutar[k]))
+     
      os.system('rm -f {0}'.format(vidnameoutar[k]))
      #os.system('touch {0}.py'.format(vidnameoutar[k]))
      #os.system('printf "import sys\nimport os\nsys.path.append(os.path.abspath(\'/usr/local/lib/python2.7/dist-packages\'))\nfrom mega import Mega\nmega = Mega()\nm = mega.login(\'discinema_1@getnada.com\',\'Lord7418529630\')\nfile = m.upload(\'{0}\')\nos.system(\'rm {0}.py && rm {0} && rm {1} && rm {2}\')" > {0}.py'.format(vidnameoutar[k],vidsub[k],vidnamear[k]))
