@@ -45,7 +45,7 @@ def doitnow():
         #os.system('echo "File size {0} bytes"'.format(file))
         os.system('rm -f qouta.txt')
         if file < yyy:
-            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+            os.system('megaput {0} --config a.megarc | tee upload.txt'.format(vidnameoutar[k]))
         else:
             os.system('echo "Can not upload will upload to another Account"')
             f = open("a.megarc", "r")
@@ -60,7 +60,7 @@ def doitnow():
             usern = "Username = discinema_" + str(x_gdeda) + "@getnada.com"
             os.system('rm -f a.megarc')
             os.system('printf "[Login]\n{1}\n{2}" > {0}'.format("a.megarc",usern,z))
-            os.system('megaput {0} --config a.megarc'.format(vidnameoutar[k]))
+            os.system('megaput {0} --config a.megarc | tee upload.txt'.format(vidnameoutar[k]))
     
      except:
         os.system('echo "Error on command"')
