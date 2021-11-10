@@ -14,8 +14,9 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
-Style: Main,Trebuchet MS,32,&H00FFFFFF,&H00FFFFFF,&H00020203,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0014,0014,0014,1
+Style: Main,Trebuchet MS,32,&H005C00B6,&H00FFFFFF,&H00020203,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,2,0014,0014,0014,1
 Style: ep title,Trebuchet MS,37,&H00FBF1FD,&H00FFFFFF,&H006C26C7,&H00E2E2E2,-1,0,0,0,100,100,0,9,1,4,1,3,0000,0100,0120,1
+Style: SignA,Times New Roman,26,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
 Style: ps,Trebuchet MS,32,&H00CBFEFC,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0014,0014,0014,1
 Style: nxt ep title,Trebuchet MS,35,&H00F6FCFA,&H00FFFFFF,&H00281E20,&H00000000,-1,0,0,0,100,100,0,0,1,1,1,3,0000,0090,0080,1
 Style: sayonara,Trebuchet MS,40,&H001D0286,&H00FFFFFF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,3,0000,0065,0080,1
