@@ -1,0 +1,537 @@
+[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+Video Aspect Ratio: 0
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Times New Roman,35,&H005C00B6,&H000000FF,&H00000000,&H00000000,1,0,0,0,100,100,0,0,0,2,0,2,0020,0020,0022,0
+Style: Default 2,Times New Roman,60,&H00FC00C6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
+Style: Default 3,Times New Roman,60,&H00FC00C6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
+Style: SignA,Times New Roman,60,&H005C00B6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0040,0018,0
+Style: TOP,Times New Roman,57,&H0AFFFFFF,&H0000FFFF,&H0A000000,&H0A4A4A4A,0,0,0,0,90,100,0,0,1,1.5,0,8,10,10,25,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:04:10.00,0:04:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:08:10.00,0:08:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:10:10.00,0:10:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:12:10.00,0:12:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:14:10.00,0:14:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:16:10.00,0:16:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:19:10.00,0:19:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:21:10.00,0:21:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:23:10.00,0:23:15.25,SignA,Narr,0000,0000,0000,,{\pos(1200,3)\blur3\c&HACACAF&}{\fs22}{\fad(1000,1000)}{\kf35}D{\kf35}i{\kf35}s{\kf35}C{\kf35}i{\kf35}n{\kf35}e{\kf35}m{\kf35}a{\kf35}.{\kf35}c{\kf35}o{\kf35}m
+Dialogue: 0,0:01:58.00,0:02:08.00,SignA,E,0000,0000,0000,,{\move(640,720,640,340)}{\fad(1000,1000)}{\blur2\pos(310,153)}نتمني لكم مشاهدة ممتعة \N DisCinema.com موقع 
+Dialogue: 0,0:21:50.00,0:22:00.00,SignA,,0000,0000,0000,,{\move(640,720,640,340)}{\fad(1000,1000)}{\blur2\pos(310,153)}زورو موقعنا لمذيد من الحلقات و الانمي و المسلسلات الاخري \N ♥DisCinema.com موقع♥
+
+Dialogue: 0,0:03:10.03,0:03:10.91,Default,Kanzai,0,0,0,,
+Dialogue: 0,0:10:55.87,0:10:56.45,Default,,0,0,0,,
+Dialogue: 0,0:01:57.67,0:02:01.42,Heart,,0,0,0,,القلب أمر مهم
+Dialogue: 0,0:02:18.06,0:02:28.57,SignB,Caption,0,0,0,,{\blur1.5\shad0\bord0\p1\c&HF4F4F4&\pos(960,-150)\fscx140\fscy150}m 3 30 l 1906.5 33 1909.5 1071 6 1077
+Dialogue: 0,0:02:18.06,0:02:21.07,Sign,Caption,0,0,0,,{\a3\blur0.75\fs225\fnAGA Abasan Regular\c&H525757&\pos(1425,1014)\b1}المركز 1\Nالمركز 2\Nالمركز 3\Nالمركز 4
+Dialogue: 0,0:02:18.06,0:02:21.07,Sign,Caption,0,0,0,,{\a3\blur0.75\fs225\fnAGA Abasan Regular\c&H525757&\pos(900,1014)\b1}باريستون\Nتشيدل\Nإكشونبي\Nبوتوباي
+Dialogue: 0,0:02:21.07,0:02:22.69,Sign,Caption,0,0,0,,{\blur0.75\fs135\fnAGA Abasan Regular\c&H525757&\move(960,243,960,-277.5)\b1\u1}نتائج التّصويت الثاني لانتخاب الرّئيس الثالث عشر
+Dialogue: 0,0:02:21.07,0:02:22.69,Sign,Caption,0,0,0,,{\blur0.75\fs105\fnAGA Abasan Regular\c&H525757&\move(960,468,960,-105)\b1\u0}العدد الإجمالي للصّيّادين   661 عضوًا\Nعدد الأصوات المشاركة 583 صوتًا
+Dialogue: 0,0:02:21.07,0:02:22.94,Sign,Caption,0,0,0,,{\blur0.75\fs45\fnAGA Abasan Regular\c&H525757&\b1\u0\move(420,630,420,-37.5)}(37,9%)
+Dialogue: 0,0:02:21.07,0:02:26.07,Sign,Caption,0,0,0,,{\a3\blur0.75\fs90\fnAGA Abasan Regular\c&H525757&\move(1500,2115,1500,330)\b1}المركز 1\Nالمركز 2\Nالمركز 3\Nالمركز 4\Nالمركز 5\Nالمركز 6\Nالمركز 7\Nالمركز 8\N    \Nالمركز 12\Nالمركز 13\Nالمركز 15\Nالمركز 16\Nالمركز 18\Nالمركز 20\Nالمركز 25\Nالمركز 47
+Dialogue: 0,0:02:21.07,0:02:26.07,Sign,Caption,0,0,0,,{\a3\blur0.75\fs90\fnAGA Abasan Regular\c&H525757&\move(1275,2115,1275,330)\b1}باريستون\Nتشيدل\Nإكشونبي\Nبوتوباي\Nميزايستوم\Nساتشو\Nموراو\Nكيوتي، سانبيكا\Nتيرادين،بوشيدورا\Nلوب\Nريني، بيسكيت\Nتسيزغيرا\Nنوف، كانزاي\Nكايتو، ساتوتز\Nمينتشي، غيرو و13 صيادًا آخر\Nسايو و11 صيادًا آخر\Nغون، هانزو و16 صيادًا آخر
+Dialogue: 0,0:02:21.07,0:02:26.07,Sign,Caption,0,0,0,,{\a1\blur0.75\fs90\fnAGA Abasan Regular\c&H525757&\move(480,2115,480,330)\b0}صوتًا {\b1}251{\b0}\Nصوتًا {\b1}46{\b0}\Nصوتًا {\b1}28{\b0}\Nصوتًا {\b1}27{\b0}\Nصوتًا {\b1}24{\b0}\Nصوتًا {\b1}15{\b0}\Nصوتًا {\b1}13{\b0}\Nأصوات {\b1}10{\b0}\N        \Nأصوات {\b1}9{\b0}\Nأصوات {\b1}8{\b0}\Nأصوات {\b1}7{\b0}\Nأصوات {\b1}6{\b0}\Nأصوات {\b1}4{\b0}\Nأصوات {\b1}3{\b0}\Nصوتان\Nصوت واحد
+Dialogue: 0,0:02:24.36,0:02:26.07,Sign,Caption,0,0,0,,{\a3\blur0.75\fs90\fnAGA Abasan Regular\c&H525757&\move(1500,1275,1500,667.5)\b1}الأصوات الملغاة   45 صوتًا        الأصوات الغائبة   33 صوتًا\N%معدّل المشاركين في التّصويت   88,2
+Dialogue: 0,0:02:24.36,0:02:26.07,Sign,Caption,0,0,0,,{\blur0.75\fs120\fnAGA Abasan Regular\c&H525757&\move(960,1410,960,802.5)\b1}سيتم إعادة التّصويت لعدم تحقيقه للشّروط المطلوبة
+Dialogue: 0,0:02:26.07,0:02:28.57,Sign,Caption,0,0,0,,{\a3\blur0.75\fs120\fnAGA Abasan Regular\c&H525757&\b1\pos(1461,498)\fscx80\fscy90}الأصوات الملغاة   45 صوتًا       الأصوات الغائبة   33 صوتًا\N{\fscx100\fscy100}%معدّل المشاركين في التّصويت   88,2
+Dialogue: 0,0:02:26.07,0:02:28.57,Sign,Caption,0,0,0,,{\blur0.75\fs150\fnAGA Abasan Regular\c&H525757&\b1\pos(975,648)}سيتم إعادة التّصويت لعدم تحقيقه للشّروط المطلوبة
+Dialogue: 0,0:06:44.29,0:06:50.63,Sign,Caption,0,0,0,,{\a5\blur1.5\shad0\bord0\p1\c&HFFFFFF&\pos(0,0)\fscx105\fscy105}m 4.5 4.5 l 1918.5 3 1915.5 1075.5 4.5 1077
+Dialogue: 0,0:06:44.29,0:06:50.63,Sign,Caption,0,0,0,,{\a5\blur1.5\shad0\bord0\p1\pos(0,0)\fscx105\fscy105\c&HF4F4F4&}m 4.5 4.5 l 1918.5 3 1915.5 1075.5 4.5 1077
+Dialogue: 0,0:06:44.29,0:06:47.71,Sign,Caption,0,0,0,,{\fad(100,0)\a3\blur0.75\fs180\fnAGA Abasan Regular\c&H525757&\b1\pos(1620,990)}المركز 6\Nالمركز 7\Nالمركز 8\Nالمركز 9\Nالمركز 11
+Dialogue: 0,0:06:44.29,0:06:45.16,Sign,Caption,0,0,0,,{\fad(100,0)\a3\blur0.75\fs180\fnAGA Abasan Regular\c&H525757&\b1\pos(1110,990)}ساتشو\Nغينتا\Nموراو\Nبيون، كلوك\Nكيوتي، سانبيكا
+Dialogue: 0,0:06:45.16,0:06:47.71,Sign,Caption,0,0,0,,{\a3\blur0.75\fs180\fnAGA Abasan Regular\c&H525757&\b1\pos(1110,990)}ساتشو\N  \Nموراو\N  \Nكيوتي، سانبيكا
+Dialogue: 0,0:06:45.16,0:06:46.96,Sign,Caption,0,0,0,,{\fad(200,500)\a3\blur4.5\bord9\fs180\fnAGA Abasan Regular\b1\pos(1110,810)\c&HF4F4F4&\3c&HEBE995&}غينتا\N  \Nبيون، كلوك
+Dialogue: 0,0:06:48.67,0:06:50.63,Sign,Caption,0,0,0,,{\a3\blur0.75\fs180\fnAGA Abasan Regular\c&H525757&\b1\pos(1620,990)}المركز 6\Nالمركز 7\Nالمركز 8\N  \Nالمركز 12
+Dialogue: 0,0:06:48.67,0:06:50.63,Sign,Caption,0,0,0,,{\a3\blur0.75\fs180\fnAGA Abasan Regular\c&H525757&\b1\pos(1110,990)}ساتشو\Nموراو\Nكيوتي، سانبيكا\Nتيرادين، بوشيدورا\Nلوب
+Dialogue: 0,0:20:48.51,0:20:48.55,Sign,Caption,0,0,0,,{\fs225\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\move(915,810,990,465,21,1773)}أمنية
+Dialogue: 0,0:20:48.55,0:20:48.59,Sign,Caption,0,0,0,,{\fs224.25\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(918,804)}أمنية
+Dialogue: 0,0:20:48.59,0:20:48.63,Sign,Caption,0,0,0,,{\fs222.75\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(924,795)}أمنية
+Dialogue: 0,0:20:48.63,0:20:48.67,Sign,Caption,0,0,0,,{\fs222\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(927,783)}أمنية
+Dialogue: 0,0:20:48.67,0:20:48.71,Sign,Caption,0,0,0,,{\fs221.25\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(930,771)}أمنية
+Dialogue: 0,0:20:48.71,0:20:48.76,Sign,Caption,0,0,0,,{\fs220.5\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(930,765)}أمنية
+Dialogue: 0,0:20:48.76,0:20:49.01,Sign,Caption,0,0,0,,{\fs225\t(\fs214.5)\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\move(942,711,954,684,21,230)}أمنية
+Dialogue: 0,0:20:49.01,0:20:49.26,Sign,Caption,0,0,0,,{\fs225\t(\fs210)\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\move(951,627,963,609,22,230)}أمنية
+Dialogue: 0,0:20:49.26,0:20:49.51,Sign,Caption,0,0,0,,{\fs255\t(\fs225)\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\move(960,561,975,540,22,231)}أمنية
+Dialogue: 0,0:20:49.51,0:20:50.05,Sign,Caption,0,0,0,,{\fs255\t(\fs225)\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\move(972,483,993,468,22,523)}أمنية
+Dialogue: 0,0:20:50.05,0:20:50.26,Sign,Caption,0,0,0,,{\fs225\t(\fs217.5)\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(993,465)}أمنية
+Dialogue: 0,0:20:50.26,0:20:51.34,Sign,Caption,0,0,0,,{\fs217.5\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(993,465)}أمنية
+Dialogue: 0,0:20:51.34,0:20:51.72,Sign,Caption,0,0,0,,{\fs217.5\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\frz340.989\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(1002,501)}أمنية
+Dialogue: 0,0:20:51.72,0:20:52.05,Sign,Caption,0,0,0,,{\fs217.5\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\c&HE5E5E5&\b0\3c&HFFFFFF&\pos(675,450)}أمنية
+Dialogue: 0,0:20:52.05,0:20:52.26,Sign,Caption,0,0,0,,{\fs217.5\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\c&HE5E5E5&\b0\3c&HFFFFFF&\move(684,450,846,453,26,193)}أمنية
+Dialogue: 0,0:20:52.26,0:20:53.01,Sign,Caption,0,0,0,,{\fs217.5\shad0\blur6\bord0.15\fnAGA Battouta Regular\i1\c&HE5E5E5&\b0\3c&HFFFFFF&\frz15.69\move(606,471,669,474,25,192)}أمنية
+Dialogue: 0,0:20:53.76,0:20:53.80,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,128.4)}طلب
+Dialogue: 0,0:20:53.80,0:20:53.97,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,128.415)}طلب
+Dialogue: 0,0:20:53.97,0:20:54.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,128.43)}طلب
+Dialogue: 0,0:20:54.01,0:20:54.05,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.15)}طلب
+Dialogue: 0,0:20:54.05,0:20:54.14,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.165)}طلب
+Dialogue: 0,0:20:54.14,0:20:54.18,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.18)}طلب
+Dialogue: 0,0:20:54.18,0:20:54.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.195)}طلب
+Dialogue: 0,0:20:54.26,0:20:54.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.4)}طلب
+Dialogue: 0,0:20:54.35,0:20:54.43,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.415)}طلب
+Dialogue: 0,0:20:54.43,0:20:54.47,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.43)}طلب
+Dialogue: 0,0:20:54.47,0:20:54.51,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.46)}طلب
+Dialogue: 0,0:20:54.51,0:20:54.55,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,151.485)}طلب
+Dialogue: 0,0:20:54.55,0:20:54.60,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,151.5)}طلب
+Dialogue: 0,0:20:54.60,0:20:54.68,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,151.515)}طلب
+Dialogue: 0,0:20:54.68,0:20:54.76,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,151.53)}طلب
+Dialogue: 0,0:20:54.76,0:20:54.89,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,157.815)}طلب
+Dialogue: 0,0:20:54.89,0:20:54.97,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,157.83)}طلب
+Dialogue: 0,0:20:54.97,0:20:55.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,157.845)}طلب
+Dialogue: 0,0:20:55.01,0:20:55.22,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,150.24)}طلب
+Dialogue: 0,0:20:55.22,0:20:55.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,150.255)}طلب
+Dialogue: 0,0:20:55.26,0:20:55.30,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,140.535)}طلب
+Dialogue: 0,0:20:55.30,0:20:55.47,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,140.55)}طلب
+Dialogue: 0,0:20:55.47,0:20:55.51,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,140.565)}طلب
+Dialogue: 0,0:20:55.51,0:20:55.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,132.585)}طلب
+Dialogue: 0,0:20:55.72,0:20:56.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,128.775)}طلب
+Dialogue: 0,0:20:56.01,0:20:56.06,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.39)}طلب
+Dialogue: 0,0:20:56.06,0:20:56.14,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.405)}طلب
+Dialogue: 0,0:20:56.14,0:20:56.22,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.42)}طلب
+Dialogue: 0,0:20:56.22,0:20:56.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.435)}طلب
+Dialogue: 0,0:20:56.26,0:20:56.39,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.67)}طلب
+Dialogue: 0,0:20:56.39,0:20:56.51,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.685)}طلب
+Dialogue: 0,0:20:56.51,0:20:56.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,151.755)}طلب
+Dialogue: 0,0:20:56.72,0:20:56.76,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,151.77)}طلب
+Dialogue: 0,0:20:56.76,0:20:56.93,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,158.025)}طلب
+Dialogue: 0,0:20:56.93,0:20:57.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,158.04)}طلب
+Dialogue: 0,0:20:57.01,0:20:57.10,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,150.405)}طلب
+Dialogue: 0,0:20:57.10,0:20:57.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,150.42)}طلب
+Dialogue: 0,0:20:57.26,0:20:57.31,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,140.745)}طلب
+Dialogue: 0,0:20:57.31,0:20:57.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,140.73)}طلب
+Dialogue: 0,0:20:57.52,0:20:57.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,132.75)}طلب
+Dialogue: 0,0:20:57.72,0:20:57.85,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,128.925)}طلب
+Dialogue: 0,0:20:57.85,0:20:57.97,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,128.91)}طلب
+Dialogue: 0,0:20:57.97,0:20:58.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,128.88)}طلب
+Dialogue: 0,0:20:58.02,0:20:58.27,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.57)}طلب
+Dialogue: 0,0:20:58.27,0:20:58.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.775)}طلب
+Dialogue: 0,0:20:58.35,0:20:58.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.79)}طلب
+Dialogue: 0,0:20:58.52,0:20:58.56,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,151.875)}طلب
+Dialogue: 0,0:20:58.56,0:20:58.77,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,151.89)}طلب
+Dialogue: 0,0:20:58.77,0:20:58.81,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,158.07)}طلب
+Dialogue: 0,0:20:58.81,0:20:58.85,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,158.085)}طلب
+Dialogue: 0,0:20:58.85,0:20:58.97,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,158.1)}طلب
+Dialogue: 0,0:20:58.97,0:20:59.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,158.115)}طلب
+Dialogue: 0,0:20:59.02,0:20:59.23,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,150.54)}طلب
+Dialogue: 0,0:20:59.23,0:20:59.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,140.835)}طلب
+Dialogue: 0,0:20:59.52,0:20:59.68,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,132.87)}طلب
+Dialogue: 0,0:20:59.68,0:20:59.77,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,132.855)}طلب
+Dialogue: 0,0:20:59.77,0:20:59.85,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,129.06)}طلب
+Dialogue: 0,0:20:59.85,0:21:00.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,129.045)}طلب
+Dialogue: 0,0:21:00.02,0:21:00.23,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,135.69)}طلب
+Dialogue: 0,0:21:00.23,0:21:00.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.91)}طلب
+Dialogue: 0,0:21:00.35,0:21:00.39,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(938.4,143.925)}طلب
+Dialogue: 0,0:20:54.26,0:20:54.30,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.6)\frz328.5}طلب
+Dialogue: 0,0:20:54.30,0:20:54.39,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.615)\frz328.5}طلب
+Dialogue: 0,0:20:54.39,0:20:54.43,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.63)\frz328.5}طلب
+Dialogue: 0,0:20:54.43,0:20:54.47,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.645)\frz328.5}طلب
+Dialogue: 0,0:20:54.47,0:20:54.55,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.66)\frz328.5}طلب
+Dialogue: 0,0:20:54.55,0:20:54.60,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.675)\frz328.5}طلب
+Dialogue: 0,0:20:54.60,0:20:54.64,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.69)\frz328.5}طلب
+Dialogue: 0,0:20:54.64,0:20:54.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.705)\frz328.5}طلب
+Dialogue: 0,0:20:54.72,0:20:54.76,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.72)\frz328.5}طلب
+Dialogue: 0,0:20:54.76,0:20:54.80,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.735)\frz328.5}طلب
+Dialogue: 0,0:20:54.80,0:20:54.85,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.75)\frz328.5}طلب
+Dialogue: 0,0:20:54.85,0:20:54.89,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.765)\frz328.5}طلب
+Dialogue: 0,0:20:54.89,0:20:54.93,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.78)\frz328.5}طلب
+Dialogue: 0,0:20:54.93,0:20:55.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.795)\frz328.5}طلب
+Dialogue: 0,0:20:55.01,0:20:55.05,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.81)\frz328.5}طلب
+Dialogue: 0,0:20:55.05,0:20:55.10,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.825)\frz328.5}طلب
+Dialogue: 0,0:20:55.10,0:20:55.18,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.84)\frz328.5}طلب
+Dialogue: 0,0:20:55.18,0:20:55.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,459.855)\frz328.5}طلب
+Dialogue: 0,0:20:55.26,0:20:55.30,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.065)\frz328.5}طلب
+Dialogue: 0,0:20:55.30,0:20:55.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.08)\frz328.5}طلب
+Dialogue: 0,0:20:55.35,0:20:55.43,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.095)\frz328.5}طلب
+Dialogue: 0,0:20:55.43,0:20:55.51,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.125)\frz328.5}طلب
+Dialogue: 0,0:20:55.51,0:20:55.55,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.105)\frz328.5}طلب
+Dialogue: 0,0:20:55.55,0:20:55.64,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.12)\frz328.5}طلب
+Dialogue: 0,0:20:55.64,0:20:55.68,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.135)\frz328.5}طلب
+Dialogue: 0,0:20:55.68,0:20:55.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.15)\frz328.5}طلب
+Dialogue: 0,0:20:55.72,0:20:55.76,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.025)\frz328.5}طلب
+Dialogue: 0,0:20:55.76,0:20:55.85,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.04)\frz328.5}طلب
+Dialogue: 0,0:20:55.85,0:20:55.97,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.055)\frz328.5}طلب
+Dialogue: 0,0:20:55.97,0:20:56.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.07)\frz328.5}طلب
+Dialogue: 0,0:20:56.01,0:20:56.06,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,487.935)\frz328.5}طلب
+Dialogue: 0,0:20:56.06,0:20:56.10,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,487.95)\frz328.5}طلب
+Dialogue: 0,0:20:56.10,0:20:56.18,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,487.965)\frz328.5}طلب
+Dialogue: 0,0:20:56.18,0:20:56.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,487.98)\frz328.5}طلب
+Dialogue: 0,0:20:56.26,0:20:56.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,480.45)\frz328.5}طلب
+Dialogue: 0,0:20:56.35,0:20:56.47,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,480.465)\frz328.5}طلب
+Dialogue: 0,0:20:56.47,0:20:56.51,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,480.48)\frz328.5}طلب
+Dialogue: 0,0:20:56.51,0:20:56.68,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,471.345)\frz328.5}طلب
+Dialogue: 0,0:20:56.68,0:20:56.76,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,471.36)\frz328.5}طلب
+Dialogue: 0,0:20:56.76,0:20:56.89,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,463.83)\frz328.5}طلب
+Dialogue: 0,0:20:56.89,0:20:56.97,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,463.845)\frz328.5}طلب
+Dialogue: 0,0:20:56.97,0:20:57.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,463.86)\frz328.5}طلب
+Dialogue: 0,0:20:57.01,0:20:57.06,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,460.17)\frz328.5}طلب
+Dialogue: 0,0:20:57.06,0:20:57.14,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,460.185)\frz328.5}طلب
+Dialogue: 0,0:20:57.14,0:20:57.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,460.2)\frz328.5}طلب
+Dialogue: 0,0:20:57.26,0:20:57.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.395)\frz328.5}طلب
+Dialogue: 0,0:20:57.35,0:20:57.39,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.41)\frz328.5}طلب
+Dialogue: 0,0:20:57.39,0:20:57.47,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.425)\frz328.5}طلب
+Dialogue: 0,0:20:57.47,0:20:57.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.44)\frz328.5}طلب
+Dialogue: 0,0:20:57.52,0:20:57.60,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.42)\frz328.5}طلب
+Dialogue: 0,0:20:57.60,0:20:57.68,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.435)\frz328.5}طلب
+Dialogue: 0,0:20:57.68,0:20:57.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.45)\frz328.5}طلب
+Dialogue: 0,0:20:57.72,0:20:58.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.31)\frz328.5}طلب
+Dialogue: 0,0:20:58.02,0:20:58.27,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,488.19)\frz328.5}طلب
+Dialogue: 0,0:20:58.27,0:20:58.47,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,480.675)\frz328.5}طلب
+Dialogue: 0,0:20:58.47,0:20:58.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,480.69)\frz328.5}طلب
+Dialogue: 0,0:20:58.52,0:20:58.60,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,471.525)\frz328.5}طلب
+Dialogue: 0,0:20:58.60,0:20:58.64,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,471.54)\frz328.5}طلب
+Dialogue: 0,0:20:58.64,0:20:58.77,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,471.525)\frz328.5}طلب
+Dialogue: 0,0:20:58.77,0:20:59.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,464.01)\frz328.5}طلب
+Dialogue: 0,0:20:59.02,0:20:59.06,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,460.365)\frz328.5}طلب
+Dialogue: 0,0:20:59.06,0:20:59.14,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,460.35)\frz328.5}طلب
+Dialogue: 0,0:20:59.14,0:20:59.23,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,460.365)\frz328.5}طلب
+Dialogue: 0,0:20:59.23,0:20:59.27,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.53)\frz328.5}طلب
+Dialogue: 0,0:20:59.27,0:20:59.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.545)\frz328.5}طلب
+Dialogue: 0,0:20:59.35,0:20:59.43,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.56)\frz328.5}طلب
+Dialogue: 0,0:20:59.43,0:20:59.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,466.575)\frz328.5}طلب
+Dialogue: 0,0:20:59.52,0:20:59.64,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.54)\frz328.5}طلب
+Dialogue: 0,0:20:59.64,0:20:59.68,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.555)\frz328.5}طلب
+Dialogue: 0,0:20:59.68,0:20:59.73,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.57)\frz328.5}طلب
+Dialogue: 0,0:20:59.73,0:20:59.77,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,474.585)\frz328.5}طلب
+Dialogue: 0,0:20:59.77,0:20:59.81,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.46)\frz328.5}طلب
+Dialogue: 0,0:20:59.81,0:20:59.89,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.475)\frz328.5}طلب
+Dialogue: 0,0:20:59.89,0:20:59.98,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.49)\frz328.5}طلب
+Dialogue: 0,0:20:59.98,0:21:00.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.505)\frz328.5}طلب
+Dialogue: 0,0:21:00.02,0:21:00.06,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,488.34)\frz328.5}طلب
+Dialogue: 0,0:21:00.06,0:21:00.18,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,488.325)\frz328.5}طلب
+Dialogue: 0,0:21:00.18,0:21:00.23,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,488.31)\frz328.5}طلب
+Dialogue: 0,0:21:00.23,0:21:00.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.085)\frz328.5}طلب
+Dialogue: 0,0:21:00.35,0:21:00.39,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(1586.4,482.055)\frz328.5}طلب
+Dialogue: 0,0:20:54.68,0:20:55.14,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,411.6)\frz23.86}طلب
+Dialogue: 0,0:20:55.14,0:20:55.55,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,411.615)\frz23.86}طلب
+Dialogue: 0,0:20:55.55,0:20:55.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,411.63)\frz23.86}طلب
+Dialogue: 0,0:20:55.72,0:20:56.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,417.255)\frz23.86}طلب
+Dialogue: 0,0:20:56.01,0:20:56.06,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,424.815)\frz23.86}طلب
+Dialogue: 0,0:20:56.06,0:20:56.18,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,424.845)\frz23.86}طلب
+Dialogue: 0,0:20:56.18,0:20:56.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,424.86)\frz23.86}طلب
+Dialogue: 0,0:20:56.26,0:20:56.51,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,432.45)\frz23.86}طلب
+Dialogue: 0,0:20:56.51,0:20:56.60,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,438.165)\frz23.86}طلب
+Dialogue: 0,0:20:56.60,0:20:56.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,438.18)\frz23.86}طلب
+Dialogue: 0,0:20:56.72,0:20:56.76,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,438.195)\frz23.86}طلب
+Dialogue: 0,0:20:56.76,0:20:56.85,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,431.295)\frz23.86}طلب
+Dialogue: 0,0:20:56.85,0:20:57.01,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,431.31)\frz23.86}طلب
+Dialogue: 0,0:20:57.01,0:20:57.06,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,422.445)\frz23.86}طلب
+Dialogue: 0,0:20:57.06,0:20:57.18,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,422.46)\frz23.86}طلب
+Dialogue: 0,0:20:57.18,0:20:57.26,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,422.475)\frz23.86}طلب
+Dialogue: 0,0:20:57.26,0:20:57.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,415.23)\frz23.86}طلب
+Dialogue: 0,0:20:57.52,0:20:57.72,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,411.69)\frz23.86}طلب
+Dialogue: 0,0:20:57.72,0:20:57.85,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,417.315)\frz23.86}طلب
+Dialogue: 0,0:20:57.85,0:20:58.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,417.33)\frz23.86}طلب
+Dialogue: 0,0:20:58.02,0:20:58.10,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,424.905)\frz23.86}طلب
+Dialogue: 0,0:20:58.10,0:20:58.27,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,424.92)\frz23.86}طلب
+Dialogue: 0,0:20:58.27,0:20:58.31,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,432.48)\frz23.86}طلب
+Dialogue: 0,0:20:58.31,0:20:58.39,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,432.51)\frz23.86}طلب
+Dialogue: 0,0:20:58.39,0:20:58.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,432.525)\frz23.86}طلب
+Dialogue: 0,0:20:58.52,0:20:58.60,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,438.255)\frz23.86}طلب
+Dialogue: 0,0:20:58.60,0:20:58.77,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,438.27)\frz23.86}طلب
+Dialogue: 0,0:20:58.77,0:20:58.81,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,431.415)\frz23.86}طلب
+Dialogue: 0,0:20:58.81,0:20:59.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,431.4)\frz23.86}طلب
+Dialogue: 0,0:20:59.02,0:20:59.10,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,422.52)\frz23.86}طلب
+Dialogue: 0,0:20:59.10,0:20:59.18,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,422.535)\frz23.86}طلب
+Dialogue: 0,0:20:59.18,0:20:59.23,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,422.55)\frz23.86}طلب
+Dialogue: 0,0:20:59.23,0:20:59.52,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,415.29)\frz23.86}طلب
+Dialogue: 0,0:20:59.52,0:20:59.56,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,411.795)\frz23.86}طلب
+Dialogue: 0,0:20:59.56,0:20:59.68,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,411.78)\frz23.86}طلب
+Dialogue: 0,0:20:59.68,0:20:59.77,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,411.795)\frz23.86}طلب
+Dialogue: 0,0:20:59.77,0:20:59.98,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,417.405)\frz23.86}طلب
+Dialogue: 0,0:20:59.98,0:21:00.02,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,417.42)\frz23.86}طلب
+Dialogue: 0,0:21:00.02,0:21:00.18,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,424.95)\frz23.86}طلب
+Dialogue: 0,0:21:00.18,0:21:00.23,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,424.965)\frz23.86}طلب
+Dialogue: 0,0:21:00.23,0:21:00.35,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,432.495)\frz23.86}طلب
+Dialogue: 0,0:21:00.35,0:21:00.39,Sign,Caption,0,0,0,,{\fs120\shad0\blur1.5\bord0\3c&HFFFFFF&\fnAGA Battouta Regular\c&HE5E5E5&\b0\pos(324,432.48)\frz23.86}طلب
+Dialogue: 0,0:00:01.68,0:00:04.19,Default,Ging,0,0,0,,أفعل هذا لإبقاء إرادة العجوز على قيد الحياة
+Dialogue: 0,0:00:04.69,0:00:06.86,Default,Ging,0,0,0,,لستُ أبحث عن أيّة مشاكل
+Dialogue: 0,0:00:07.81,0:00:10.73,Default,Beans,0,0,0,,جين)-سان، لماذا تفعل هذا إذا كنتَ)
+Dialogue: 0,0:00:10.73,0:00:12.53,Default,,0,0,0,,لا تريد تغيير النّتائج؟
+Dialogue: 0,0:00:14.95,0:00:17.74,Default,Ging,0,0,0,,،إن جعلتُ هدفي يتحرّك كما أريد
+Dialogue: 0,0:00:17.74,0:00:19.53,Default,,0,0,0,,فسأكون قد نجحتُ كصيّاد
+Dialogue: 0,0:01:39.98,0:01:44.91,Title,Ep,0,0,0,,{\blur0.15\be2\pos(972,381)\fscx105\fscy115} أمنية {\b1\fnArial\fs210\c&H2A5FFA&}×{\fs0\c0\fn0\b0}\hو {\b1\fs210\fnArial\c&H2A5FFA&}×{\b0\fs0\c0\fn0}\hطلب
+Dialogue: 0,0:01:49.41,0:01:51.87,Default,N,0,0,0,,في منتصف اللّيل للثّامن من غشت/أغسطس {في 12:00 صباحًا}
+Dialogue: 0,0:01:51.87,0:01:54.58,Default,,0,0,0,,،عند مقرّ جمعيّة الصّيّادين الرّئيسي
+Dialogue: 0,0:01:54.58,0:02:00.55,Default,,0,0,0,,أُعطيت الانطلاقة لبدءِ التصويت لاختيار\N(الرّئيس الثالث عشر الّذي سيخلُفُ (نيتيرو
+Dialogue: 0,0:02:02.09,0:02:04.38,Default,N,0,0,0,,(جعلَ اعتمادُ قوانينِ (جين
+Dialogue: 0,0:02:04.38,0:02:10.14,Default,,0,0,0,,كلّ الأعضاء السّتُّمائة وواحدٍ وستّين\Nناخبين ومرشّحين في الوقت نفسه
+Dialogue: 0,0:02:10.76,0:02:12.35,Default,N,0,0,0,,،في هذا اليوم
+Dialogue: 0,0:02:12.35,0:02:15.23,Default,,0,0,0,,{\b1\fs75\fnArial}%95 {\b0\fs\fn} كانت نسبة الناخبين المشاركين أقلّ من
+Dialogue: 0,0:02:15.23,0:02:18.06,Default,,0,0,0,,وهذا يعني إلزامية إعادة التّصويت
+Dialogue: 0,0:02:19.56,0:02:24.11,Default,N,0,0,0,,ومع ذلك، فشلت عملية التّصويت الثانية
+Dialogue: 0,0:02:24.86,0:02:26.53,Default,,0,0,0,,،في تحقيق الشروط المطلوبة
+Dialogue: 0,0:02:26.53,0:02:28.57,Default,,0,0,0,,ووجب إعادة التّصويت مرّة أخرى
+Dialogue: 0,0:02:30.08,0:02:32.29,Default,Paris,0,0,0,,بأخذ النّتائج المحصّل عليها \N...من التّصويتين في الحسبان
+Dialogue: 0,0:02:32.29,0:02:35.66,Default,Paris,0,0,0,,{\move(960,1050,960,933,1000,1731)}علينا أوّلاً أن نطلب من (بينز)-سان \Nبأن يراجع بطاقات التّصويت {بطاقات التصويت أو الاقتراع}
+Dialogue: 0,0:02:35.66,0:02:40.04,Default,,0,0,0,,{\pos(960,933)}قبل أن يتم قبولها، وذلك بغرض \Nالتّقليل من عدد الأصوات الملغاة
+Dialogue: 0,0:02:40.42,0:02:41.29,Default,Paris,0,0,0,,{\pos(960,933)}،وثانيًا
+Dialogue: 0,0:02:41.71,0:02:45.80,Default,,0,0,0,,{\pos(960,933)}إنّ الصّيّادين الّذين خرقوا القوانين \Nبالامتناع أو بتقديم أصوات ملغاة
+Dialogue: 0,0:02:45.80,0:02:48.14,Default,,0,0,0,,{\pos(960,933)}سيتم سحب رخص الصّيد خاصّتهم بشكل مؤقّت
+Dialogue: 0,0:02:48.51,0:02:50.60,Default,Paris,0,0,0,,{\pos(960,933)}هذان اقتراحان من طرفي
+Dialogue: 0,0:02:50.97,0:02:54.18,Default,Saiyu,0,0,0,,{\move(960,933,960,1050,1800,2154)}إذ اعتمدنا الأول، فهل سنكون بحاجة للثّاني؟
+Dialogue: 0,0:02:54.18,0:02:59.06,Default,Saiyu,0,0,0,,تخلّصُنا من الأصوات الملغاة سيكون\N{\b1\fs75\fnArial}%95{\b0\fs\fn}كفيلاً لتجاوز نسبة الـ
+Dialogue: 0,0:03:00.15,0:03:01.61,Default,Paris,0,0,0,,...ما كنتُ لأجزم بذلك
+Dialogue: 0,0:03:01.94,0:03:06.61,Default,Paris,0,0,0,,قد يتغيّب بعض الصّيّادين إذا ما عرفوا\N أنّه لا يمكنهم تقديم أصوات ملغاة
+Dialogue: 0,0:03:06.61,0:03:10.03,Default,Paris,0,0,0,,فهنالك أشخاص قد يدوسون \Nعلى رغبات الرّئيس السابق
+Dialogue: 0,0:03:10.91,0:03:13.33,Default,Mizai,0,0,0,,إيّاك، ستضيّع الوقت لا غير
+Dialogue: 0,0:03:13.74,0:03:16.33,Default,Paris,0,0,0,,ماذا؟ هل قلتُ شيئًا ليس في محلّه؟
+Dialogue: 0,0:03:17.08,0:03:21.42,Default,Paris,0,0,0,,أعلن الرّئيس السابق أنّ نسبة \N،{\b1\fs75\fnArial}%95{\b0\fs\fn} المشاركة يجب أن تكون
+Dialogue: 0,0:03:21.42,0:03:24.50,Default,Paris,0,0,0,,لذلك فتقديم أصواتٍ ملغاة أو رفض\Nالإدلاء بها هو خيانة لذكراه
+Dialogue: 0,0:03:24.88,0:03:28.26,Default,Kanzai,0,0,0,,!إنّهم لا يريدونك أن تصبح الرّئيس لا غير
+Dialogue: 0,0:03:28.55,0:03:31.89,Default,Paris,0,0,0,,عليهم إذًا أن يصوّتوا لشخص آخر
+Dialogue: 0,0:03:32.22,0:03:35.39,Default,Paris,0,0,0,,أنا واثق أنّ هنالك مرشّحين مؤهّلين آخرين
+Dialogue: 0,0:03:35.72,0:03:38.98,Default,Paris,0,0,0,,...رغم أنّ هذا ليس ما تعتقده أغلبية الصّيّادين
+Dialogue: 0,0:03:39.69,0:03:44.40,Default,Paris,0,0,0,,أهذا صعبٌ عليك، بالنّظر لقاموسك \Nالمحدود ومهاراتك في الحساب؟
+Dialogue: 0,0:03:50.91,0:03:53.03,Default,Mizai,0,0,0,,أخبرتُك أنّك ستضيّع الوقت لا غير
+Dialogue: 0,0:03:53.66,0:03:55.54,Default,Mizai,0,0,0,,(حصلتَ على تحذير يا (كانزاي
+Dialogue: 0,0:03:56.04,0:04:01.75,Default,Cheadle,0,0,0,,قبل أن نضيف قوانين جديدة، أرى أنّ\Nعلى كلّ مرشّح أن يبُثّ رسالة خاصّة
+Dialogue: 0,0:04:02.04,0:04:05.92,Default,Cheadle,0,0,0,,كما أنّ الامتناع عن التّصويت أو الإدلاء بأصوات\Nملغاة ليسا أمريْن مخالفيْن للقوانين
+Dialogue: 0,0:04:05.92,0:04:08.88,Default,Paris,0,0,0,,،أوافقك على اقتراحك الأوّل
+Dialogue: 0,0:04:08.88,0:04:11.01,Default,Paris,0,0,0,,لكنّ الثّاني يجعلني أشكّ في \N...أنّ ما سمعتُه صحيح
+Dialogue: 0,0:04:11.72,0:04:14.22,Default,Paris,0,0,0,,لا أصدّق أنّ هذه كلمات خرجت من لسان
+Dialogue: 0,0:04:14.22,0:04:17.02,Default,,0,0,0,,واحدة ممّن دعموا قيادة الرّئيس السابق
+Dialogue: 0,0:04:17.68,0:04:21.44,Default,Paris,0,0,0,,قال الرّئيس السابق أنّ درجة صعوبة\N“{\b1\fs75\fnArial}D{\b0\fs\fn}” هذه الانتخابات هي
+Dialogue: 0,0:04:21.44,0:04:26.69,Default,Paris,0,0,0,,ممّا يعني أنّ على الأمر أن يكون سهلاً\Nعلينا نحن الصّيادون المقلّدون بنجوم
+Dialogue: 0,0:04:26.90,0:04:31.15,Default,Paris,0,0,0,,بعبارات أخرى، لقد وثق بنا \Nالرئّيس السابق للاهتمام بهذا
+Dialogue: 0,0:04:31.15,0:04:32.61,Default,Cluck,0,0,0,,!باريستون)، أنت مزعج)
+Dialogue: 0,0:04:32.61,0:04:34.20,Default,,0,0,0,,!لا تتكلّم! أبقِ فمك مغلقًا
+Dialogue: 0,0:04:34.74,0:04:41.16,Default,Piyon,0,0,0,,إنّ مستوى الصّعوبة مجرّد بادرة منه \N“للتّعبير عن درجة ثقته بـ"الجونيشين
+Dialogue: 0,0:04:41.16,0:04:42.79,Default,Piyon,0,0,0,,فهو يشجّعنا ،“{\b1\fs75\fnArial}S{\b0\fs\fn}” إن كانت
+Dialogue: 0,0:04:42.79,0:04:45.38,Default,Piyon,0,0,0,,فهو يتحدّانا ،“{\b1\fs75\fnArial}F{\b0\fs\fn}” وإن كانت
+Dialogue: 0,0:04:45.67,0:04:47.63,Default,Cluck,0,0,0,,،مهما تلاعبتَ بالأمر
+Dialogue: 0,0:04:47.63,0:04:50.80,Default,,0,0,0,,فإنّ الامتناع عن التّصويت والإدلاء بأصوات\Nملغاة لا يخرق أيّ قاعدة أيّها القذر
+Dialogue: 0,0:04:51.17,0:04:53.05,Default,Paris,0,0,0,,...عندما وصفتُها بالاختراقات
+Dialogue: 0,0:04:53.05,0:04:56.56,Default,,0,0,0,,فكلّ ما كنتُ أقصده هو أنّ هؤلاء \Nالصّيّادين يخطئون في الطّريقة
+Dialogue: 0,0:04:56.56,0:04:58.93,Default,,0,0,0,,الّتي يظهرون بها احترامهم للرّئيس السابق
+Dialogue: 0,0:04:59.35,0:05:04.69,Default,Paris,0,0,0,,الرّسالة الّتي أريد إيصالها هي أنّ إنجاح الانتخابات\Nستكون الطّريقة المثلى لإظهار احترامنا له
+Dialogue: 0,0:05:04.69,0:05:06.73,Default,Kanzai,0,0,0,,!إذًا قل هذا في خطابك
+Dialogue: 0,0:05:06.73,0:05:08.94,Default,Kanzai,0,0,0,,!إن جعلتَ منه قاعدة، فسيكون ذلك إكراهًا
+Dialogue: 0,0:05:09.48,0:05:12.36,Default,Paris,0,0,0,,وهل الإكراه شيء سيّئ؟
+Dialogue: 0,0:05:12.78,0:05:14.57,Default,Mizai,0,0,0,,...حسنًا، فهمنا
+Dialogue: 0,0:05:14.57,0:05:15.78,Default,Mizai,0,0,0,,هذا يكفي
+Dialogue: 0,0:05:15.78,0:05:18.24,Default,Mizai,0,0,0,,أنا موافق على كِلا الاقتراحين
+Dialogue: 0,0:05:18.66,0:05:21.29,Default,Mizai,0,0,0,,،أسبابي تختلف عن أسبابك
+Dialogue: 0,0:05:21.29,0:05:24.33,Default,Mizai,0,0,0,,،لكن،رغم هذه الظروف الاستثنائية
+Dialogue: 0,0:05:24.33,0:05:27.04,Default,,0,0,0,,أوافق أنّه لا يجب على أيّ صيّاد \Nالامتناع أو الإدلاء بأصوات ملغاة
+Dialogue: 0,0:05:27.04,0:05:29.50,Default,Paris,0,0,0,,دعونا نصوّت على هذا إذًا
+Dialogue: 0,0:05:29.50,0:05:30.71,Default,Cheadle,0,0,0,,لكن قبل ذلك
+Dialogue: 0,0:05:31.63,0:05:34.09,Default,Cheadle,0,0,0,,آمُل ألاّ تقول خلال ذلك الوقت أنّ الصّيّادين
+Dialogue: 0,0:05:34.09,0:05:37.47,Default,,0,0,0,,الّذين تم سحب رخصهم لا يُعتبرون صيّادين محترفين
+Dialogue: 0,0:05:37.47,0:05:40.10,Default,Cheadle,0,0,0,,فلا يُعقل أن تكون بذلك الغباء، صحيح؟
+Dialogue: 0,0:05:42.06,0:05:43.60,Default,Paris,0,0,0,,...بالطّبع لا
+Dialogue: 0,0:05:44.10,0:05:48.98,Default,Paris,0,0,0,,ما كنتُ لأفكّر في استغلال منطقٍ \Nمخادعٍ كهذا للتّلاعب بالأصوات
+Dialogue: 0,0:05:48.98,0:05:51.36,Default,Paris,0,0,0,,سيتم مصادرة رخصهم لا غير
+Dialogue: 0,0:05:51.36,0:05:52.69,Default,Mizai,0,0,0,,ماذا إن كانت ضائعة؟
+Dialogue: 0,0:05:53.65,0:05:56.49,Default,Mizai,0,0,0,,الصّيّاد الّذي أضاع رخصته
+Dialogue: 0,0:05:56.49,0:05:59.12,Default,,0,0,0,,،قد يكون محميًّا من طرف القوانين العشرة
+Dialogue: 0,0:05:59.12,0:06:02.29,Default,,0,0,0,,لكنّه ليس مؤهلاً ليكون صيّادًا \Nمحترفًا حسب اعتقادنا، صحيح؟
+Dialogue: 0,0:06:03.62,0:06:05.04,Default,Paris,0,0,0,,...إذًا
+Dialogue: 0,0:06:05.54,0:06:07.46,Default,Paris,0,0,0,,أتحاول القول أنّ شخصًا ما
+Dialogue: 0,0:06:07.46,0:06:11.30,Default,,0,0,0,,قد يستعمل تهديد الرّخصة \Nالضائعة للتّلاعب بالتّصويت؟
+Dialogue: 0,0:06:12.09,0:06:14.80,Default,Paris,0,0,0,,لا يمكننا أن نجزم أنّ لا أحد سيُقدِم على ذلك
+Dialogue: 0,0:06:15.59,0:06:18.01,Default,Paris,0,0,0,,...دعونا إذًا نقرّر وبكل وضوح في هذه اللّحظات
+Dialogue: 0,0:06:18.55,0:06:21.77,Default,Paris,0,0,0,,أنّ الصّيّادين الّذين أضاعوا رخصهم خلال الانتخابات
+Dialogue: 0,0:06:21.77,0:06:24.39,Default,,0,0,0,,لن يفقدوا الحق في التّصويت
+Dialogue: 0,0:06:24.98,0:06:30.94,Default,Paris,0,0,0,,بهذه الطّريقة، لن يستطيع أحد \Nالتّلاعب بمعدّل المشاركات أو الأغلبية
+Dialogue: 0,0:06:36.24,0:06:37.82,Default - italics,Cheadle,0,0,0,,،أكره الاعتراف بهذا
+Dialogue: 0,0:06:37.82,0:06:41.41,Default - italics,,0,0,0,,لكن، ما لم نقم بشيء ما حيال مسألة\N،الأغلبية وليس فقط معدّل المشاركة
+Dialogue: 0,0:06:41.41,0:06:44.20,Default - italics,,0,0,0,,(فستطول تلك الابتسامة على محيّا (باريستون
+Dialogue: 0,0:06:44.62,0:06:47.50,Default - italics,Cheadle,0,0,0,,يبدو أنّه قد أمّن الأصوات التّي {أمّن أو حصل أو ضمِن، لكن أظن أن مصطلح أمّن هو ما يُستعمل في مثل هذه الحالات، تأمين الأصوات}
+Dialogue: 0,0:06:47.50,0:06:50.00,Default - italics,,0,0,0,,(كانت لصالح (غينتا) و(بيون) و(كلوك
+Dialogue: 0,0:06:51.34,0:06:55.88,Default - italics,Cheadle,0,0,0,,سيكون هنالك خسائر في الأرواح إن كانت توقيتنا خاطئًا
+Dialogue: 0,0:06:58.51,0:06:59.68,Default - italics,Cheadle,0,0,0,,...أكره الاعتراف بهذا
+Dialogue: 0,0:07:00.39,0:07:02.14,Default - italics,,0,0,0,,لكن حضور (جين) معنا الآن
+Dialogue: 0,0:07:03.85,0:07:06.43,Default - italics,Cheadle,0,0,0,,هو شيء أرغب فيه بشدّة
+Dialogue: 0,0:07:10.98,0:07:14.11,Default - italics,Cheadle,0,0,0,,...وحش لا يمكن تطويعه {تطويعه أو ترويضه}
+Dialogue: 0,0:07:17.70,0:07:21.53,Default - italics,Cheadle,0,0,0,,لِمَ اختار الرّئيس شخصًا مثله ليكون نائبه؟
+Dialogue: 0,0:07:32.54,0:07:36.09,Secondary,Netero,0,0,0,,،بما أنّي حظيتُ بفرصة اختيار ذراعي اليمنى
+Dialogue: 0,0:07:36.09,0:07:38.22,Secondary,,0,0,0,,فإنّ اختيار رجل مِطواع لن يكون ممتعًا أبدًا
+Dialogue: 0,0:07:39.01,0:07:41.97,Secondary,Netero,0,0,0,,...يجب أن يكون شخصًا لا أطيقه
+Dialogue: 0,0:07:42.43,0:07:46.31,Secondary,Netero,0,0,0,,هذا هو نوع الأشخاص الّذي أريده إلى جانبي
+Dialogue: 0,0:07:49.31,0:07:50.23,Default - italics,Beans,0,0,0,,،أيّها الرّئيس
+Dialogue: 0,0:07:51.60,0:07:55.44,Default - italics,,0,0,0,,لا زلتُ أعتقد أنّك قد اقترفتَ خطأً
+Dialogue: 0,0:08:02.87,0:08:04.78,Default,Seaquant,0,0,0,,كيلوا) ”بو“-تشان قد عاد؟) {بو تشان: السيد الصغير}
+Dialogue: 0,0:08:05.66,0:08:06.91,Default,Seaquant,0,0,0,,...لقد ارتحتُ الآن
+Dialogue: 0,0:08:07.29,0:08:10.75,Default,Seaquant,0,0,0,,ساورني القلق عندما رأيتُ اسمه\Nضمن لائحة الّذين لم يُصوّتوا
+Dialogue: 0,0:08:10.75,0:08:12.08,Default,Seaquant,0,0,0,,كيف حاله؟
+Dialogue: 0,0:08:26.18,0:08:28.31,Default,Seaquant,0,0,0,,لقد فتح بوابات الاختبار من الأولى حتّى الخامسة؟
+Dialogue: 0,0:08:28.98,0:08:32.31,Default,Zebro,0,0,0,,في الواقع، كانت تعابير وجهه هي ما أقلقني
+Dialogue: 0,0:08:32.90,0:08:34.86,Default,Zebro,0,0,0,,...بدا لي حزينًا للغاية {حزينًا، مكروبًا}
+Dialogue: 0,0:08:34.86,0:08:38.23,Default,Zebro,0,0,0,,لم أستطع حمل نفسي على مخاطبته
+Dialogue: 0,0:08:39.07,0:08:43.32,Default,Zebro,0,0,0,,إذا ما التقيتَ بصديقه هناك، فهلاّ أوْصَلتَه رسالة؟
+Dialogue: 0,0:08:43.91,0:08:47.24,Default,Zebro,0,0,0,,أخبره أن "بو“-تشان بحاجة لمساعدته
+Dialogue: 0,0:08:47.24,0:08:47.95,Default,Seaquant,0,0,0,,...في الواقع
+Dialogue: 0,0:08:50.41,0:08:54.08,Default,Seaquant,0,0,0,,إنّ صديقه هو سببُ انزعاجه
+Dialogue: 0,0:08:55.04,0:08:57.67,Default,Zebro,0,0,0,,مستحيل؟ (غون)-كُن؟
+Dialogue: 0,0:09:02.72,0:09:03.80,Default,Zebro,0,0,0,,...بو“-تشان”
+Dialogue: 0,0:09:26.99,0:09:28.83,Default,Killua,0,0,0,,(اسمح لي برؤية (ألوكا
+Dialogue: 0,0:09:29.95,0:09:31.66,Default,Killua,0,0,0,,أحتاج قوّتها
+Dialogue: 0,0:09:29.54,0:09:32.62,شرح المفردات,Killua,0,0,0,,{\fad(300,300)}ملاحظة: كيلوا هو الوحيد الّذي يعتبر (ألوكا) ويشير له بأنه فتاة عكس الجميع
+Dialogue: 0,0:09:33.08,0:09:34.08,Default,Silva,0,0,0,,...(كيلوا)
+Dialogue: 0,0:09:34.50,0:09:36.84,Default,Killua,0,0,0,,!الوقت يداهمني يا أبي
+Dialogue: 0,0:09:37.46,0:09:40.00,Default,Killua,0,0,0,,سأذهب حتّى إن حاولتَ إيقافي، لذلك رافقني
+Dialogue: 0,0:09:40.63,0:09:41.59,Default,Silva,0,0,0,,لا جدوى
+Dialogue: 0,0:09:42.97,0:09:45.34,Default,Silva,0,0,0,,(لا يستطيع أحد السّيطرة على (ألوكا
+Dialogue: 0,0:09:45.34,0:09:47.26,Default,Killua,0,0,0,,!هذا ليس صحيحًا البتّة
+Dialogue: 0,0:09:47.26,0:09:48.93,Default,Killua,0,0,0,,...أنت مخطئ... أنيكي مخطئ {أنيكي: الأخ الأكبر}
+Dialogue: 0,0:09:49.22,0:09:50.77,Default,Killua,0,0,0,,!إنّ (ألوكا) فرد من هذه العائلة
+Dialogue: 0,0:09:50.77,0:09:51.93,Default,Killua,0,0,0,,!وليست آلة
+Dialogue: 0,0:09:52.73,0:09:55.69,Default,Killua,0,0,0,,!سأطلب مساعدتها بصفتي أخاها
+Dialogue: 0,0:09:57.98,0:10:00.28,Default,Silva,0,0,0,,ستطلب؟
+Dialogue: 0,0:10:04.78,0:10:05.70,Default,Silva,0,0,0,,ذلك الولد {مع أنّه قال "إنّه" فقط}
+Dialogue: 0,0:10:06.49,0:10:07.99,Default,,0,0,0,,ليس بشريًّا
+Dialogue: 0,0:10:09.28,0:10:10.87,Default,Silva,0,0,0,,لا يجب عليك أن تعتبر
+Dialogue: 0,0:10:11.33,0:10:13.37,Default,,0,0,0,,ذلك الشّيء فردًا من العائلة
+Dialogue: 0,0:10:14.50,0:10:15.58,Default,Kil,0,0,0,,ما الّذي قلتَه؟
+Dialogue: 0,0:10:25.80,0:10:27.09,Default,Silva,0,0,0,,ذلك الولد {مع أنّه قال "إنّه" فقط}
+Dialogue: 0,0:10:28.14,0:10:30.01,Default,,0,0,0,,هو شيء وُلِد
+Dialogue: 0,0:10:32.60,0:10:33.89,Default,Silva,0,0,0,,من مكانٍ آخر
+Dialogue: 0,0:11:03.55,0:11:04.63,Default,Kil,0,0,0,,اجلس
+Dialogue: 0,0:11:09.76,0:11:13.26,Default,Kil,0,0,0,,“إن حاول أحد ما إزالة "القيد والعهد\N،الّلذين وضعهما (غون) على نفسه {هناك حلقة كاملة خاصة عن القيد والعهد تخص كورابيكا}
+Dialogue: 0,0:11:13.89,0:11:17.19,Default,Kil,0,0,0,,فإمّا سيتم صدّهم أو سيلقون حتفهم
+Dialogue: 0,0:11:19.35,0:11:21.44,Default,Kil,0,0,0,,،إذا كانت (ألوكا) لا تزال كما عهدتُها
+Dialogue: 0,0:11:21.44,0:11:24.44,Default,Kil,0,0,0,,فأنا الوحيد الّذي يستطيع مساعدتها
+Dialogue: 0,0:11:25.28,0:11:29.45,Default,Kil,0,0,0,,(و(ألوكا) هي الوحيدة الّتي تستطيع إنقاذ (غون
+Dialogue: 0,0:11:33.83,0:11:35.04,Default,Silva,0,0,0,,عدني بشيء واحد
+Dialogue: 0,0:11:36.25,0:11:38.33,Default,Silva,0,0,0,,لا تخُن أصدقاءك أبدًا
+Dialogue: 0,0:11:39.54,0:11:43.96,Default,Kil,0,0,0,,إذا ما تجاهلتُ صديقًا لديّ القدرة على\Nمساعدته، أولن يُعدّ ذلك بمثابة خيانة؟
+Dialogue: 0,0:11:48.88,0:11:49.93,Default,Silva,0,0,0,,رافقني
+Dialogue: 0,0:13:01.79,0:13:03.79,Default,Silva,0,0,0,,،أنا واثق أنّك تعرف هذا مسبقًا
+Dialogue: 0,0:13:04.21,0:13:07.17,Default,,0,0,0,,لكن، لم يتمّ تقديم أيّ طلبات جديدة
+Dialogue: 0,0:13:08.21,0:13:10.21,Default,Killua,0,0,0,,من الّذي حصل على آخر أمنية؟
+Dialogue: 0,0:13:11.05,0:13:12.13,Default,Silva,0,0,0,,(ميلوكي)
+Dialogue: 0,0:13:13.51,0:13:16.55,Default,Silva,0,0,0,,لقد تمنّى أجدد حاسوب متوفّر في تلك الفترة
+Dialogue: 0,0:13:17.47,0:13:21.14,Default,Silva,0,0,0,,لقد طلب الأمنية بنفسه في حضرة \Nألوكا)، لذلك لا يمكنه أن يكذب)
+Dialogue: 0,0:13:22.85,0:13:26.86,Default,Killua,0,0,0,,...لن تكون العواقب وخيمةً بعد طلب حاسوب
+Dialogue: 0,0:13:29.73,0:13:33.82,Default - italics,Kil,0,0,0,,هل السّبب هو سيطرة (إيلومي) عليّ؟
+Dialogue: 0,0:13:35.45,0:13:40.41,Default - italics,Kil,0,0,0,,{\move(960,1050,960,942,1000,1775)}أنّى لي أن أترك أختي الصّغيرة في وضع كهذا؟ {何で俺はこんな目に遭ってる"妹"を放っておけたんだ！}
+Dialogue: 0,0:13:41.54,0:13:44.33,Default,Silva,0,0,0,,{\pos(960,942)}كيلوا)، أريد أن أراجع معك هذا ثانية)
+Dialogue: 0,0:13:45.79,0:13:48.59,Default,Silva,0,0,0,,{\pos(960,942)}ما هي قواعدُ طلب أمنية من (ألوكا)؟
+Dialogue: 0,0:13:49.25,0:13:50.25,Default,Kil,0,0,0,,{\pos(960,942)}...لا حاجة
+Dialogue: 0,0:13:50.55,0:13:53.51,Default,Kil,0,0,0,,{\pos(960,942)}أعرف (ألوكا) أفضل من أيّ أحد آخر
+Dialogue: 0,0:13:53.51,0:13:54.30,Default,Sil,0,0,0,,أرفضُ هذا
+Dialogue: 0,0:13:55.18,0:13:57.35,Default,,0,0,0,,أنسيتَ كم شخصًا مات جراء هذا؟
+Dialogue: 0,0:13:57.89,0:14:00.01,Default,Kil,0,0,0,,!لقد قتلنا أكثر من ذلك
+Dialogue: 0,0:14:01.14,0:14:01.93,Default,Silva,0,0,0,,(كيلوا)
+Dialogue: 0,0:14:02.68,0:14:06.15,Default,,0,0,0,,لن نكمل طريقنا ما لم تهدّئ من روعك
+Dialogue: 0,0:14:06.94,0:14:13.69,Default,Silva,0,0,0,,إن الوعد الّذي قطعتُه لك مهم \Nلأنّي أهتم لأمرك بصفتي والدك
+Dialogue: 0,0:14:14.90,0:14:16.95,Default,Silva,0,0,0,,فهلاّ راجعنا القواعد مرّة أخرى من أجلي؟
+Dialogue: 0,0:14:21.16,0:14:22.37,Default,Kil,0,0,0,,...(إنّ (ألوكا
+Dialogue: 0,0:14:27.96,0:14:30.63,Default,Alluka,0,0,0,,!(ميتسوبا)... (ميتسوبا)
+Dialogue: 0,0:14:31.21,0:14:32.88,Default,Alluka,0,0,0,,احمليني
+Dialogue: 0,0:14:32.88,0:14:35.05,Default,Mitsuba,0,0,0,,!حاضر، حاضر، سأحملك
+Dialogue: 0,0:14:35.63,0:14:36.84,Default,,0,0,0,,!ها أنت ذا
+Dialogue: 0,0:14:37.68,0:14:39.68,Default,Alluka,0,0,0,,!اصعدي الدّرج
+Dialogue: 0,0:14:39.68,0:14:40.93,Default,Mitsuba,0,0,0,,حاضر، حاضر
+Dialogue: 0,0:14:41.76,0:14:43.85,Default,Alluka,0,0,0,,!ارفعيني عاليًا
+Dialogue: 0,0:14:43.85,0:14:44.64,Default,Mitsuba,0,0,0,,حاضر، حاضر
+Dialogue: 0,0:14:45.14,0:14:45.85,Default,,0,0,0,,!ها أنت ذا
+Dialogue: 0,0:14:46.64,0:14:48.02,Default,Alluka,0,0,0,,...(ميتسوبا)
+Dialogue: 0,0:14:48.02,0:14:51.40,Default,Mitsuba,0,0,0,,حاضر، حاضر؟ ماذا هنالك يا (ألوكا) "بو“-تشان؟
+Dialogue: 0,0:15:04.79,0:15:08.00,Default,Mitsuba,0,0,0,,!أجل... لقد تغيّر وجه (ألوكا) "بو“-تشان فجأة
+Dialogue: 0,0:15:08.96,0:15:12.42,Default,Kil,0,0,0,,لا بأس بذلك، يمكنني أن أهتم بالأمر
+Dialogue: 0,0:15:14.01,0:15:17.22,Default,Kil,0,0,0,,!ألوكا)، ارفعيني عاليًا)
+Dialogue: 0,0:15:17.63,0:15:18.63,Default,Alluka,0,0,0,,حاضر
+Dialogue: 0,0:15:19.09,0:15:20.64,Default,,0,0,0,,...أعلى
+Dialogue: 0,0:15:21.26,0:15:22.68,Default,Alluka,0,0,0,,...أعلى
+Dialogue: 0,0:15:24.27,0:15:25.31,Default,Alluka,0,0,0,,حاضر
+Dialogue: 0,0:15:25.31,0:15:26.68,Default,Kil,0,0,0,,أرأيتِ؟ عاد لطبيعته {عاد وججه لطبيعته وليك ألوكا لكي لا يحدث الخلط ويقولون لماذا لم نستعمل التأنيث بما أن كيلوا من يتحدث}
+Dialogue: 0,0:15:27.39,0:15:28.98,Default,Kil,0,0,0,,دعي هذا الأمر سرًّا عن البقيّة
+Dialogue: 0,0:15:30.02,0:15:32.15,Default,Mitsuba,0,0,0,,...سبق وأطلعتُ والدتك بالأمر
+Dialogue: 0,0:15:32.15,0:15:32.94,Default,Kil,0,0,0,,ماذا؟
+Dialogue: 0,0:15:33.32,0:15:36.19,Default,Kil,0,0,0,,!لكنّ هذا كان سرّنا نحن
+Dialogue: 0,0:15:38.28,0:15:40.53,Default,Kikyo,0,0,0,,...يحدث ذلك بعد أن يتم تلبية ثلاثة طلبات
+Dialogue: 0,0:15:41.20,0:15:44.04,Default,Kil,0,0,0,,أجل، تصبح عيناها سوداوتين
+Dialogue: 0,0:15:44.45,0:15:47.50,Default,Silva,0,0,0,,هل عادتا لطبيعتهما بعد أن رفعك (ألوكا) عاليًا؟
+Dialogue: 0,0:15:47.50,0:15:53.21,Default,Kil,0,0,0,,كلاّ، تُحقّق (ألوكا) أمنيةً ما بعد ذلك
+Dialogue: 0,0:15:53.67,0:15:56.42,Default,Kil,0,0,0,,...لم أفهم الأمر في البداية
+Dialogue: 0,0:15:56.42,0:16:00.80,Default,Kil,0,0,0,,لذلك تمنّيتُ منها أن تخبرني \N،كيف أعيد عينيها لطبيعتهما
+Dialogue: 0,0:16:00.80,0:16:02.72,Default,Kil,0,0,0,,فأخبرتني (ألوكا) بالطّريقة
+Dialogue: 0,0:16:03.68,0:16:07.48,Default,Silva,0,0,0,,أتذكر الكلمات الّتي قالها (ألوكا) حينها بشكل مضبوط؟
+Dialogue: 0,0:16:08.64,0:16:11.94,Default,Kil,0,0,0,,بعد أن تُحقّق أمنية، تتحوّل عيناها للأبيض
+Dialogue: 0,0:16:12.90,0:16:16.44,Default,Kil,0,0,0,,وعندما تُلبّى ثلاثة من طلباتها، تتحوّل للأسود
+Dialogue: 0,0:16:24.03,0:16:26.74,Default,Kikyo,0,0,0,,ارفضي أيّ طلب يطلبه (ألوكا) منكِ
+Dialogue: 0,0:16:27.33,0:16:29.41,Default,Kikyo,0,0,0,,ولا يهم ما مدى بساطة الطّلبات
+Dialogue: 0,0:16:29.41,0:16:31.71,Default,Mitsuba,0,0,0,,حاضر، مفهوم
+Dialogue: 0,0:16:33.96,0:16:36.75,Default,Alluka,0,0,0,,!ميتسوبا)... احمليني)
+Dialogue: 0,0:16:37.09,0:16:39.38,Default,Mitsuba,0,0,0,,لا أستطيع ذلك يا ”بو“-تشان
+Dialogue: 0,0:16:41.43,0:16:43.93,Default,Alluka,0,0,0,,إذًا يا (ميتسوبا)، صافحيني
+Dialogue: 0,0:16:43.93,0:16:46.14,Default,Mitsuba,0,0,0,,...أنا... لا
+Dialogue: 0,0:16:46.14,0:16:47.39,Default,Mitsuba,0,0,0,,لا أستطيع ذلك يا ”بو“-تشان
+Dialogue: 0,0:16:47.39,0:16:48.52,Default,Mitsuba,0,0,0,,أنا آسفة
+Dialogue: 0,0:16:49.35,0:16:52.48,Default,Alluka,0,0,0,,(إذًا احمليني على ظهركِ يا (ميتسوبا
+Dialogue: 0,0:16:52.94,0:16:55.19,Default,Mitsuba,0,0,0,,أنا آسفة... لا أستطيع
+Dialogue: 0,0:16:55.19,0:16:56.69,Default,Mitsuba,0,0,0,,ما عساي أفعل؟
+Dialogue: 0,0:16:58.53,0:17:00.03,Default,Mitsuba,0,0,0,,!حسنًا يا "بو“-تشان
+Dialogue: 0,0:17:00.03,0:17:02.36,Default,Mitsuba,0,0,0,,دعنا نذهب ونمسك بعض الحشرات
+Dialogue: 0,0:17:02.36,0:17:03.28,Default,Mitsuba,0,0,0,,أموافق؟
+Dialogue: 0,0:17:03.57,0:17:06.74,Default,Alluka,0,0,0,,إذًا يا (ميتسوبا)، ارفعيني عاليًا
+Dialogue: 0,0:17:06.74,0:17:09.91,Default,Mitsuba,0,0,0,,{\fscx200\fscy100}-{\fscx100\fscy100}لا أستطيع ذلك أيضًا يا "بو“-تشا
+Dialogue: 0,0:17:27.56,0:17:29.22,Default,Kikyo,0,0,0,,...كانت (ميتسوبا) في ساحة اللّعب
+Dialogue: 0,0:17:29.68,0:17:31.68,Default,Kikyo,0,0,0,,و(هاسامو) كان في مسكن الخدم
+Dialogue: 0,0:17:32.18,0:17:35.15,Default,Silva,0,0,0,,إذًا، فشخصان في مكانين مختلفين
+Dialogue: 0,0:17:35.15,0:17:39.15,Default,,0,0,0,,...سُحِقَا في رمشة عين في الوقت نفسه
+Dialogue: 0,0:17:39.53,0:17:42.15,Default,Kikyo,0,0,0,,ما الّذي يحدث؟
+Dialogue: 0,0:17:42.74,0:17:44.20,Default,Kil,0,0,0,,هذا لأنها رفضت طلباتها
+Dialogue: 0,0:17:45.78,0:17:48.66,Default,Kil,0,0,0,,(لقد رفضت تلبية أربعةٍ من طلبات (ألوكا
+Dialogue: 0,0:17:51.70,0:17:54.08,Default,Alluka,0,0,0,,!ياشوها)، احمليني على ظهرك)
+Dialogue: 0,0:17:54.50,0:17:56.17,Default,Yasuha,0,0,0,,حاضر يا "بو“-تشاما
+Dialogue: 0,0:18:10.85,0:18:12.73,Default,Yasuha,0,0,0,,...ألوكا) "بو“-تشاما)
+Dialogue: 0,0:18:14.39,0:18:17.73,Default,Yasuha,0,0,0,,أيمكنك أن تجعلني
+Dialogue: 0,0:18:18.31,0:18:19.94,Default,,0,0,0,,مليونيرة؟
+Dialogue: 0,0:18:21.40,0:18:22.28,Default,Alluka,0,0,0,,حاضر
+Dialogue: 0,0:18:42.46,0:18:43.51,Default,Alluka,0,0,0,,حاضر
+Dialogue: 0,0:18:46.13,0:18:49.30,Default - italics,N,0,0,0,,تم الإعلان عن حادثة غامضة اختفت \Nفيها سفينة جويّة لنقل الأموال بشكل مفاجئ
+Dialogue: 0,0:18:49.30,0:18:54.81,Default - italics,N,0,0,0,,وقد كانت الأموال التّي فيها\N  قد اختفت أيضًا بعد أن عُثر على السّفينة
+Dialogue: 0,0:18:56.19,0:19:00.48,Default - italics,N,0,0,0,,وقد أدلى القبطان والطاقم بتفسيرات مبهمة
+Dialogue: 0,0:19:00.48,0:19:03.98,Default - italics,N,0,0,0,,وسيأخذ تحديد السّبب وقتًا طويلاً
+Dialogue: 0,0:19:05.03,0:19:07.03,Default,Yasuha,0,0,0,,!أنا آسفة للغاية
+Dialogue: 0,0:19:07.03,0:19:08.78,Default,Yasuha,0,0,0,,...لم أستطع منع نفسي
+Dialogue: 0,0:19:10.87,0:19:13.74,Default,Illumi,0,0,0,,يصعب تصديق أنّ الأمر كان مجرّد مصادفة
+Dialogue: 0,0:19:14.75,0:19:16.71,Default,Silva,0,0,0,,...عندما يكون برفقتنا
+Dialogue: 0,0:19:16.71,0:19:19.54,Default,Kikyo,0,0,0,,فهو لا يطلب أيّة طلبات
+Dialogue: 0,0:19:20.25,0:19:24.46,Default,Illumi,0,0,0,,أبي، هل يمكنك أن تسمح لي \Nباختيار رئيس الخدم التالي؟
+Dialogue: 0,0:19:26.67,0:19:30.97,Default,Illumi,0,0,0,,(مهمّتكِ هي تلبية طلبات (ألوكا
+Dialogue: 0,0:19:31.47,0:19:34.01,Default,Kasuga,0,0,0,,أجل... مفهوم
+Dialogue: 0,0:19:34.27,0:19:39.85,Default,Illumi,0,0,0,,،إن نجحتِ في هذه المهمة\Nفسأعفو عنكِ وعن حبيبكِ {أظنهم حذفوا مقطع ما يقول أن العلاقات بين الخدم محرّمة وهذا ما يفسّر كلام إيلومي الآن، غريب، أو أظن أن ذلك سيتم التطرق له لاحقلا،،، لا أدري}
+Dialogue: 0,0:19:42.36,0:19:44.07,Default,Alluka,0,0,0,,...(أخبريني يا (كاسوغا
+Dialogue: 0,0:19:44.73,0:19:46.28,Default,Kasuga,0,0,0,,نعم، ماذا تريد؟
+Dialogue: 0,0:19:47.24,0:19:48.78,Default,Alluka,0,0,0,,أعطيني كبدكِ
+Dialogue: 0,0:19:50.03,0:19:51.74,Default,Kasuga,0,0,0,,...ماذا؟ هذا ليس
+Dialogue: 0,0:19:51.74,0:19:53.24,Default,Kasuga,0,0,0,,...تمهّل
+Dialogue: 0,0:19:53.66,0:19:55.08,Default,Alluka,0,0,0,,ألن تعطينيه؟
+Dialogue: 0,0:19:56.54,0:20:00.04,Default,Alluka,0,0,0,,إذًا يا (كاسوكا)، أعطني عفجكِ {المِعَى الاثنا عشريّ، لكن يمكن استعمال كملة أمعاك بشكل عام، لا أدري}
+Dialogue: 0,0:20:00.96,0:20:02.92,Default,Kasuga,0,0,0,,...تمهّل لحظة يا "بو“-تشاما
+Dialogue: 0,0:20:02.92,0:20:05.59,Default,Kasuga,0,0,0,,لنلعب لعبة مختلفة! موافق؟
+Dialogue: 0,0:20:06.63,0:20:08.72,Default,Alluka,0,0,0,,لن تعطينيه؟
+Dialogue: 0,0:20:09.47,0:20:12.85,Default,Alluka,0,0,0,,إذًا يا (كاسوغا)، أعطني عمودك الفقري
+Dialogue: 0,0:20:14.56,0:20:15.72,Default,Kasuga,0,0,0,,!بو“-تشاما”
+Dialogue: 0,0:20:16.52,0:20:19.23,Default,Kasuga,0,0,0,,...بو“-تشاما... أنا أرجوك”
+Dialogue: 0,0:20:21.02,0:20:22.73,Default,Alluka,0,0,0,,...(إذًا يا (كاسوغا
+Dialogue: 0,0:20:25.36,0:20:27.40,Default,Alluka,0,0,0,,أعطيني دماغكِ
+Dialogue: 0,0:20:33.91,0:20:38.79,Default - italics,Kil,0,0,0,,عندما يتم تلبية ثلاثة طلبات \Nلـ(ألوكا)، فستُحقّق أمنية
+Dialogue: 0,0:20:39.79,0:20:43.96,Default - italics,Kil,0,0,0,,ولا يوجد على الأرجح أيّ حدود للأماني الّتي تُحقّقها
+Dialogue: 0,0:20:45.29,0:20:48.51,Default - italics,Kil,0,0,0,,وأظن أنّها قادرة على تحقيق أيّ أمنية
+Dialogue: 0,0:20:49.30,0:20:53.01,Default - italics,Kil,0,0,0,,...لكن، كلّما كانت الأمنية الّتي حقّقتها كبيرة
+Dialogue: 0,0:20:54.64,0:20:57.47,Default - italics,Caption,0,0,0,,زاد حجم الطّلبات الثلاثة الّتي ستطلبها لاحقًا
+Dialogue: 0,0:20:58.10,0:20:59.89,Default - italics,Caption,0,0,0,,بعبارات أخرى، تبادلٌ متساوٍ {Equivalent exchange}
+Dialogue: 0,0:21:02.52,0:21:06.61,Default - italics,Kil,0,0,0,,كما أنّ من يطلب الأمنية \Nليس هو من يدفع ثمن أمنيته
+Dialogue: 0,0:21:07.11,0:21:09.94,Default - italics,Kil,0,0,0,,بل إنّه الشّخص التالي الّذي سيُلبّي الطّلبات
+Dialogue: 0,0:21:20.41,0:21:24.04,Default - italics,Kil,0,0,0,,{\pos(960,963)}(إن رفض أحد ما أربعة طلبات على التّوالي لـ(ألوكا
+Dialogue: 0,0:21:24.04,0:21:28.00,Default - italics,,0,0,0,,{\pos(960,963)}،فإنّ ذلك الشّخص والشّخص الّذي يحبّه
+Dialogue: 0,0:21:28.00,0:21:31.97,Default - italics,Kil,0,0,0,,سيموتان، أي على الأقل سيموت شخصان
+Dialogue: 0,0:21:33.59,0:21:38.31,Default - italics,Kil,0,0,0,,كلما كانت الأمنية كبيرة، زاد عدد الأشخاص \Nالّذين سيموتون إذا لم تُلبّى الطلبات
+Dialogue: 0,0:21:39.52,0:21:43.39,Default - italics,Kil,0,0,0,,بعد تلك الأمنية، مات سبعة وستّون \Nشخصًا، وهؤلاء فقط من ندري بشأنهم
+Dialogue: 0,0:23:24.16,0:23:26.50,Default,N,0,0,0,,{\move(960,1050,960,846,27,1778)}...التّفكير في عائلة انفصلت عن بعضها
+Dialogue: 0,0:23:26.96,0:23:29.63,Default,N,0,0,0,,{\pos(960,846)}...التّفكير في الصّديق الّذي يحتضر
+Dialogue: 0,0:23:30.08,0:23:32.04,Default,N,0,0,0,,{\pos(960,846)}ما الّذي سيفعله (كيلوا) الآن؟
+Dialogue: 0,0:23:32.50,0:23:35.17,Default,N,0,0,0,,{\pos(960,846)}في الحلقة القادمة: ألوكا × و × نانيكا
